@@ -40,6 +40,8 @@ class PublishableModulePlugin : Plugin<Project> {
           name = "GitHubPackages"
           url = project.uri("https://maven.pkg.github.com/$owner/$repo")
 
+
+
           credentials {
             this.username = username
             this.password = token
