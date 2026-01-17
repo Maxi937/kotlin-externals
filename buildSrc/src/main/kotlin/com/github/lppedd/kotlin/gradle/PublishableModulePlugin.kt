@@ -20,19 +20,19 @@ class PublishableModulePlugin : Plugin<Project> {
   private fun configureGithubPublishing(project: Project) {
     val owner = project.findProperty("github.owner")?.toString()
       ?: System.getenv("GITHUB_OWNER")
-      ?: error("Missing github.owner")
+      ?: ""
 
     val repo = project.findProperty("github.repo")?.toString()
       ?: System.getenv("GITHUB_REPO")
-      ?: error("Missing github.repo")
+      ?: ""
 
     val username = project.findProperty("github.username")?.toString()
       ?: System.getenv("GITHUB_ACTOR")
-      ?: error("Missing github.username")
+      ?: ""
 
     val token = project.findProperty("github.token")?.toString()
       ?: System.getenv("GITHUB_TOKEN")
-      ?: error("Missing github.token")
+      ?: ""
 
     project.extensions.configure<PublishingExtension> {
       repositories {
