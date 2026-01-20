@@ -57,8 +57,8 @@ class ExternalsModulePlugin : Plugin<Project> {
     // General Kotlin multiplatform configuration
     val kmp = project.kmpExtension
     kmp.compilerOptions {
-      apiVersion.set(KotlinVersion.KOTLIN_2_0)
-      languageVersion.set(KotlinVersion.KOTLIN_2_0)
+      apiVersion.set(KotlinVersion.KOTLIN_2_1)
+      languageVersion.set(KotlinVersion.KOTLIN_2_1)
       freeCompilerArgs.add("-XXLanguage:+JsAllowInvalidCharsIdentifiersEscaping")
     }
 
@@ -76,10 +76,12 @@ class ExternalsModulePlugin : Plugin<Project> {
       useCommonJs()
     }
 
-    kmp.wasmJs() {
-      nodejs()
-      browser()
-      useCommonJs()
+    if(project.name == "vscode") {
+      kmp.wasmJs() {
+        nodejs()
+        browser()
+        useCommonJs()
+      }
     }
 
     // Compile to ES classes for better debuggability.
