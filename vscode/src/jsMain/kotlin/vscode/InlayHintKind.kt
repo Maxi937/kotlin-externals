@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Inlay hint kinds.
@@ -14,13 +14,13 @@ sealed external interface InlayHintKind {
     /**
      * An inlay hint that for a type annotation.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Type: InlayHintKind
 
     /**
      * An inlay hint that is for a parameter.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Parameter: InlayHintKind
   }
 }

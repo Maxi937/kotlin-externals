@@ -15,7 +15,7 @@ external class NotebookCellOutputItem {
    * @param data The value of the output item.
    * @param mime The mime type of the output item.
    */
-  constructor(data: Uint8Array, mime: String)
+  constructor(data: Uint8Array<*>, mime: String)
 
   /**
    * The mime type which determines how the [NotebookCellOutputItem.data]-property
@@ -29,7 +29,7 @@ external class NotebookCellOutputItem {
   /**
    * The data of this output item. Must always be an array of unsigned 8-bit integers.
    */
-  var data: Uint8Array
+  var data: Uint8Array<*>
 
   companion object {
     /**

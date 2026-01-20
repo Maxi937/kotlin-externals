@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * The kind of executions that [TestRunProfile]s control.
@@ -11,19 +11,19 @@ sealed external interface TestRunProfileKind {
     /**
      * The `Run` test profile kind.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Run: TestRunProfileKind
 
     /**
      * The `Debug` test profile kind.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Debug: TestRunProfileKind
 
     /**
      * The `Coverage` test profile kind.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val Coverage: TestRunProfileKind
   }
 }

@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * A notebook cell kind.
@@ -11,14 +11,14 @@ sealed external interface NotebookCellKind {
     /**
      * A markup-cell is formatted source that is used for display.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Markup: NotebookCellKind
 
     /**
      * A code-cell is source that can be executed ([NotebookController]) and that
      * produces output ([NotebookCellOutput]).
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Code: NotebookCellKind
   }
 }

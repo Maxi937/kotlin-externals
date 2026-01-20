@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Terminal exit reason kind.
@@ -11,31 +11,31 @@ sealed external interface TerminalExitReason {
     /**
      * Unknown reason.
      */
-    @JsIntValue(0)
+    @JsRawValue("0")
     val Unknown: TerminalExitReason
 
     /**
      * The window closed/reloaded.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Shutdown: TerminalExitReason
 
     /**
      * The shell process exited.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Process: TerminalExitReason
 
     /**
      * The user closed the terminal.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val User: TerminalExitReason
 
     /**
      * An extension disposed the terminal.
      */
-    @JsIntValue(4)
+    @JsRawValue("4")
     val Extension: TerminalExitReason
   }
 }

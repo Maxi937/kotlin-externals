@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Represents the alignment of status bar items.
@@ -11,13 +11,13 @@ sealed external interface NotebookCellStatusBarAlignment {
     /**
      * Aligned to the left side.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Left: NotebookCellStatusBarAlignment
 
     /**
      * Aligned to the right side.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Right: NotebookCellStatusBarAlignment
   }
 }

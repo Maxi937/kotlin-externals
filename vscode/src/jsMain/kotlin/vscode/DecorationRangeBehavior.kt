@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Describes the behavior of decorations when typing/editing at their edges.
@@ -11,25 +11,25 @@ sealed external interface DecorationRangeBehavior {
     /**
      * The decoration's range will widen when edits occur at the start or end.
      */
-    @JsIntValue(0)
+    @JsRawValue("0")
     val OpenOpen: DecorationRangeBehavior
 
     /**
      * The decoration's range will not widen when edits occur at the start or end.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val ClosedClosed: DecorationRangeBehavior
 
     /**
      * The decoration's range will widen when edits occur at the start, but not at the end.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val OpenClosed: DecorationRangeBehavior
 
     /**
      * The decoration's range will widen when edits occur at the end, but not at the start.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val ClosedOpen: DecorationRangeBehavior
   }
 }

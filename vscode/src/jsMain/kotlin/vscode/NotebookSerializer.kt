@@ -20,7 +20,7 @@ external interface NotebookSerializer {
    * @return Notebook data or a thenable that resolves to such.
    */
   fun deserializeNotebook(
-    content: Uint8Array,
+    content: Uint8Array<*>,
     token: CancellationToken,
   ): Union<NotebookData, Thenable<NotebookData>> // NotebookData | Thenable<NotebookData>
 
@@ -34,5 +34,5 @@ external interface NotebookSerializer {
   fun serializeNotebook(
     data: NotebookData,
     token: CancellationToken,
-  ): Union<Uint8Array, Thenable<Uint8Array>> // Uint8Array | Thenable<Uint8Array>
+  ): Union<Uint8Array<*>, Thenable<Uint8Array<*>>> // Uint8Array | Thenable<Uint8Array>
 }

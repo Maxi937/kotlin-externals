@@ -1,6 +1,6 @@
 package vscode
 
-import js.array.JsTuple2
+import js.array.Tuple2
 import ts.Union
 
 /**
@@ -23,7 +23,7 @@ external interface InputBoxOptions {
    * pre-filled value will be selected, when empty (start equals end) only the cursor will be set,
    * otherwise the defined range will be selected.
    */
-  var valueSelection: JsTuple2<Int, Int>? // [ number, number ]
+  var valueSelection: Tuple2<Int, Int>? // [ number, number ]
 
   /**
    * The text to display underneath the input box.

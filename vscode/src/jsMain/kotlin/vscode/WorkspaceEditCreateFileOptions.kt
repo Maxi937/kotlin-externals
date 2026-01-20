@@ -20,5 +20,5 @@ external interface WorkspaceEditCreateFileOptions {
    * If creating a file from a [DocumentDropEditProvider], you can
    * pass in a [DataTransferFile] to improve performance by avoiding extra data copying.
    */
-  val contents: Union<Uint8Array, DataTransferFile>?
+  val contents: Union<Uint8Array<*>, DataTransferFile>?
 }

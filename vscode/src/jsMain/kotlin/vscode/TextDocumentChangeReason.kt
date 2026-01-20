@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Reasons for why a text document has changed.
@@ -9,11 +9,11 @@ import seskar.js.JsIntValue
 sealed external interface TextDocumentChangeReason {
   companion object {
     /** The text change is caused by an undo operation. */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Undo: TextDocumentChangeReason
 
     /** The text change is caused by an redo operation. */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Redo: TextDocumentChangeReason
   }
 }

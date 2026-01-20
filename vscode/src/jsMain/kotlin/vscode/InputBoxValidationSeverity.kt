@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * The severity level for input box validation.
@@ -11,19 +11,19 @@ sealed external interface InputBoxValidationSeverity {
     /**
      * Informational severity level.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Info: InputBoxValidationSeverity
 
     /**
      * Warning severity level.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Warning: InputBoxValidationSeverity
 
     /**
      * Error severity level.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val Error: InputBoxValidationSeverity
   }
 }

@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Completion item tags are extra annotations that tweak the rendering of a completion
@@ -12,7 +12,7 @@ sealed external interface CompletionItemTag {
     /**
      * Render a completion as obsolete, usually using a strike-out.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Deprecated: CompletionItemTag
   }
 }

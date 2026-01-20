@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Enumeration of file change types.
@@ -11,19 +11,19 @@ sealed external interface FileChangeType {
     /**
      * The contents or metadata of a file have changed.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Changed: FileChangeType
 
     /**
      * A file has been created.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Created: FileChangeType
 
     /**
      * A file has been deleted.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val Deleted: FileChangeType
   }
 }

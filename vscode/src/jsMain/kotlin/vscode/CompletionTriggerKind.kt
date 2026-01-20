@@ -18,13 +18,13 @@ sealed external interface CompletionTriggerKind {
     /**
      * Completion was triggered by a trigger character.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val TriggerCharacter: CompletionTriggerKind
 
     /**
      * Completion was re-triggered as current completion list is incomplete
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val TriggerForIncompleteCompletions: CompletionTriggerKind
   }
 }

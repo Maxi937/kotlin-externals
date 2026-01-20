@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * A type of mutation that can be applied to an environment variable.
@@ -11,19 +11,19 @@ sealed external interface EnvironmentVariableMutatorType {
     /**
      * Replace the variable's existing value.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Replace: EnvironmentVariableMutatorType
 
     /**
      * Append to the end of the variable's existing value.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Append: EnvironmentVariableMutatorType
 
     /**
      * Prepend to the start of the variable's existing value.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val Prepend: EnvironmentVariableMutatorType
   }
 }

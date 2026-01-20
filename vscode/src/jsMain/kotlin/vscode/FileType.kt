@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Enumeration of file types. The types `File` and `Directory` can also be
@@ -13,25 +13,25 @@ sealed external interface FileType {
     /**
      * The file type is unknown.
      */
-    @JsIntValue(0)
+    @JsRawValue("0")
     val Unknown: FileType
 
     /**
      * A regular file.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val File: FileType
 
     /**
      * A directory.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Directory: FileType
 
     /**
      * A symbolic link to a file.
      */
-    @JsIntValue(64)
+    @JsRawValue("64")
     val SymbolicLink: FileType
   }
 }

@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Notebook controller affinity for notebook documents.
@@ -13,13 +13,13 @@ sealed external interface NotebookControllerAffinity {
     /**
      * Default affinity.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Default: NotebookControllerAffinity
 
     /**
      * A controller is preferred for a notebook.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Preferred: NotebookControllerAffinity
   }
 }

@@ -75,13 +75,13 @@ class ExternalsModulePlugin : Plugin<Project> {
       useCommonJs()
     }
 
-//    if(project.name == "vscode") {
-//      kmp.wasmJs() {
-//        nodejs()
-//        browser()
-//        useCommonJs()
-//      }
-//    }
+    if(project.name == "vscode") {
+      kmp.wasmJs() {
+        nodejs()
+        browser()
+        useCommonJs()
+      }
+    }
 
     // Compile to ES classes for better debuggability.
     // This is the only way it works for prod/dev/test compilations.

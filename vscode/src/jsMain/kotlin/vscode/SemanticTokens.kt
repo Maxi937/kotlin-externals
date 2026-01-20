@@ -16,7 +16,7 @@ external class SemanticTokens {
    * @param data Token data.
    * @param resultId Result identifier.
    */
-  constructor(data: Uint32Array, resultId: String = definedExternally)
+  constructor(data: Uint32Array<*>, resultId: String = definedExternally)
 
   /**
    * The result id of the tokens.
@@ -29,5 +29,5 @@ external class SemanticTokens {
    * The actual tokens data.
    * @see [DocumentSemanticTokensProvider.provideDocumentSemanticTokens] for an explanation of the format.
    */
-  val data: Uint32Array
+  val data: Uint32Array<*>
 }

@@ -23,5 +23,5 @@ external interface DataTransferFile {
   /**
    * The full file contents of the file.
    */
-  fun data(): Thenable<Uint8Array>
+  fun data(): Thenable<Uint8Array<*>>
 }

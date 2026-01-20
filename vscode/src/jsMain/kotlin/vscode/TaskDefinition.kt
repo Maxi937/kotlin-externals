@@ -26,10 +26,8 @@ external interface TaskDefinition {
    * Additional attributes of a concrete task definition.
    */
 
-  @seskar.js.JsNative
   operator fun get(key: String): Any?
 
-  @seskar.js.JsNative
   operator fun set(
     key: String,
     value: Any?,

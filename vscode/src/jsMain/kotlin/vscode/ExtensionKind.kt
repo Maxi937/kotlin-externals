@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * In a remote window the extension kind describes if an extension
@@ -12,13 +12,13 @@ sealed external interface ExtensionKind {
     /**
      * Extension runs where the UI runs.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val UI: ExtensionKind
 
     /**
      * Extension runs where the remote extension host runs.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Workspace: ExtensionKind
   }
 }

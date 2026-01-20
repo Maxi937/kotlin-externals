@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Denotes a location of an editor in the window. Editors can be arranged in a grid
@@ -15,7 +15,7 @@ sealed external interface ViewColumn {
      * can be used when opening editors, but the *resolved* [TextEditor.viewColumn]-value
      * of editors will always be `One`, `Two`, `Three`,... or `undefined` but never `Active`.
      */
-    @JsIntValue(-1)
+    @JsRawValue("-1")
     val Active: ViewColumn
 
     /**
@@ -23,61 +23,61 @@ sealed external interface ViewColumn {
      * can be used when opening editors, but the *resolved* [TextEditor.viewColumn]-value
      * of editors will always be `One`, `Two`, `Three`,... or `undefined` but never `Beside`.
      */
-    @JsIntValue(-2)
+    @JsRawValue("-2")
     val Beside: ViewColumn
 
     /**
      * The first editor column.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val One: ViewColumn
 
     /**
      * The second editor column.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Two: ViewColumn
 
     /**
      * The third editor column.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val Three: ViewColumn
 
     /**
      * The fourth editor column.
      */
-    @JsIntValue(4)
+    @JsRawValue("4")
     val Four: ViewColumn
 
     /**
      * The fifth editor column.
      */
-    @JsIntValue(5)
+    @JsRawValue("5")
     val Five: ViewColumn
 
     /**
      * The sixth editor column.
      */
-    @JsIntValue(6)
+    @JsRawValue("6")
     val Six: ViewColumn
 
     /**
      * The seventh editor column.
      */
-    @JsIntValue(7)
+    @JsRawValue("7")
     val Seven: ViewColumn
 
     /**
      * The eighth editor column.
      */
-    @JsIntValue(8)
+    @JsRawValue("8")
     val Eight: ViewColumn
 
     /**
      * The ninth editor column.
      */
-    @JsIntValue(9)
+    @JsRawValue("9")
     val Nine: ViewColumn
   }
 }

@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Defines how an argument should be quoted if it contains
@@ -13,7 +13,7 @@ sealed external interface ShellQuoting {
      * Character escaping should be used. This for example
      * uses \ on bash and ` on PowerShell.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Escape: ShellQuoting
 
     /**
@@ -23,7 +23,7 @@ sealed external interface ShellQuoting {
      * Under PowerShell echo 'The value is $(2 * 3)' will
      * print `The value is $(2 * 3)`
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Strong: ShellQuoting
 
     /**
@@ -33,7 +33,7 @@ sealed external interface ShellQuoting {
      * string.  Under PowerShell echo "The value is $(2 * 3)"
      * will print `The value is 6`
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val Weak: ShellQuoting
   }
 }

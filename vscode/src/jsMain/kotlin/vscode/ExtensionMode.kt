@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * The ExtensionMode is provided on the `ExtensionContext` and indicates the
@@ -13,21 +13,21 @@ sealed external interface ExtensionMode {
      * The extension is installed normally (for example, from the marketplace
      * or VSIX) in the editor.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Production: ExtensionMode
 
     /**
      * The extension is running from an `--extensionDevelopmentPath` provided
      * when launching the editor.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Development: ExtensionMode
 
     /**
      * The extension is running from an `--extensionTestsPath` and
      * the extension host is running unit tests.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val Test: ExtensionMode
   }
 }

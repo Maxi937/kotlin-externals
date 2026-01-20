@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Represents sources that can cause selection change events ([vscode.window.onDidChangeTextEditorSelection]).
@@ -11,19 +11,19 @@ sealed external interface TextEditorSelectionChangeKind {
     /**
      * Selection changed due to typing in the editor.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Keyboard: TextEditorSelectionChangeKind
 
     /**
      * Selection change due to clicking in the editor.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Mouse: TextEditorSelectionChangeKind
 
     /**
      * Selection changed because a command ran.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val Command: TextEditorSelectionChangeKind
   }
 }

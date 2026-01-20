@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Additional metadata about the type of a diagnostic.
@@ -18,7 +18,7 @@ sealed external interface DiagnosticTag {
      * `"editorUnnecessaryCode.border"` theme color to underline unnecessary code
      * instead of fading it out.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Unnecessary: DiagnosticTag
 
     /**
@@ -26,7 +26,7 @@ sealed external interface DiagnosticTag {
      *
      * Diagnostics with this tag are rendered with a strike through.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Deprecated: DiagnosticTag
   }
 }

@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Rendering style of the cursor.
@@ -11,37 +11,37 @@ sealed external interface TextEditorCursorStyle {
     /**
      * Render the cursor as a vertical thick line.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Line: TextEditorCursorStyle
 
     /**
      * Render the cursor as a block filled.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Block: TextEditorCursorStyle
 
     /**
      * Render the cursor as a thick horizontal line.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val Underline: TextEditorCursorStyle
 
     /**
      * Render the cursor as a vertical thin line.
      */
-    @JsIntValue(4)
+    @JsRawValue("4")
     val LineThin: TextEditorCursorStyle
 
     /**
      * Render the cursor as a block outlined.
      */
-    @JsIntValue(5)
+    @JsRawValue("5")
     val BlockOutline: TextEditorCursorStyle
 
     /**
      * Render the cursor as a thin horizontal line.
      */
-    @JsIntValue(6)
+    @JsRawValue("6")
     val UnderlineThin: TextEditorCursorStyle
   }
 }

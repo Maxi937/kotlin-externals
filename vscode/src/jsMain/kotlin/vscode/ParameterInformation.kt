@@ -2,7 +2,7 @@
 
 package vscode
 
-import js.array.JsTuple2
+import js.array.Tuple2
 import ts.Union
 
 /**
@@ -21,12 +21,12 @@ external class ParameterInformation {
   constructor(label: String, documentation: MarkdownString = definedExternally)
 
   constructor(
-    label: JsTuple2<Int, Int>, // [ number, number ]
+    label: Tuple2<Int, Int>, // [ number, number ]
     documentation: String = definedExternally,
   )
 
   constructor(
-    label: JsTuple2<Int, Int>, // [ number, number ]
+    label: Tuple2<Int, Int>, // [ number, number ]
     documentation: MarkdownString = definedExternally,
   )
 
@@ -37,7 +37,7 @@ external class ParameterInformation {
    * [SignatureInformation.label]. *Note*: A label of type string must be
    * a substring of its containing signature information's [SignatureInformation.label].
    */
-  var label: Union<String, JsTuple2<Int, Int>> // string | [ number, number ]
+  var label: Union<String, Tuple2<Int, Int>> // string | [ number, number ]
 
   /**
    * The human-readable doc-comment of this signature. Will be shown

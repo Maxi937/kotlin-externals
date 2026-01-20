@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * The scope of a task.
@@ -11,13 +11,13 @@ sealed external interface TaskScope {
     /**
      * The task is a global task. Global tasks are currently not supported.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Global: TaskScope
 
     /**
      * The task is a workspace task
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Workspace: TaskScope
   }
 }

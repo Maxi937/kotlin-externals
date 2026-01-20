@@ -2,7 +2,7 @@
 
 package vscode
 
-import js.array.JsTuple2
+import js.array.Tuple2
 import js.array.ReadonlyArray
 import ts.Union
 
@@ -88,7 +88,7 @@ external class WorkspaceEdit {
    */
   fun set(
     uri: Uri,
-    edits: ReadonlyArray<JsTuple2<Union<TextEdit, SnippetTextEdit>, WorkspaceEditEntryMetadata?>>,
+    edits: ReadonlyArray<Tuple2<Union<TextEdit, SnippetTextEdit>, WorkspaceEditEntryMetadata?>>,
   )
 
   /**
@@ -110,7 +110,7 @@ external class WorkspaceEdit {
    */
   fun set(
     uri: Uri,
-    edits: ReadonlyArray<JsTuple2<NotebookEdit, WorkspaceEditEntryMetadata?>>,
+    edits: ReadonlyArray<Tuple2<NotebookEdit, WorkspaceEditEntryMetadata?>>,
   )
 
   /**
@@ -171,5 +171,5 @@ external class WorkspaceEdit {
    *
    * @return A shallow copy of `[Uri, TextEdit[]]`-tuples.
    */
-  fun entries(): Array<JsTuple2<Uri, Array<TextEdit>>>
+  fun entries(): Array<Tuple2<Uri, Array<TextEdit>>>
 }

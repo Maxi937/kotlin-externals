@@ -22,13 +22,12 @@ external interface DebugConfiguration {
   /**
    * Additional debug type specific properties.
    */
-  @seskar.js.JsNative
+
   operator fun get(key: String): Any?
 
   /**
    * Additional debug type specific properties.
    */
-  @seskar.js.JsNative
   operator fun set(
     key: String,
     value: Any?,

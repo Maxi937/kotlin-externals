@@ -1,6 +1,6 @@
 package vscode
 
-import js.array.JsTuple2
+import js.array.Tuple2
 import js.typedarrays.Uint8Array
 import ts.Union
 
@@ -79,7 +79,7 @@ external interface FileSystemProvider {
    */
   fun readDirectory(
     uri: Uri,
-  ): Union<Array<JsTuple2<String, FileType>>, Thenable<Array<JsTuple2<String, FileType>>>> // [ string, FileType ][] | Thenable<[ string, FileType ][]>
+  ): Union<Array<Tuple2<String, FileType>>, Thenable<Array<Tuple2<String, FileType>>>> // [ string, FileType ][] | Thenable<[ string, FileType ][]>
 
   /**
    * Create a new directory (Note, that new files are created via `write`-calls).
@@ -98,7 +98,7 @@ external interface FileSystemProvider {
    * @return An array of bytes or a thenable that resolves to such.
    * @throws FileSystemError.FileNotFound when `uri` doesn't exist.
    */
-  fun readFile(uri: Uri): Union<Uint8Array, Thenable<Uint8Array>> // Uint8Array | Thenable<Uint8Array>
+  fun readFile(uri: Uri): Union<Uint8Array<*>, Thenable<Uint8Array<*>>> // Uint8Array | Thenable<Uint8Array>
 
   /**
    * Write data to a file, replacing its entire contents.
@@ -113,7 +113,7 @@ external interface FileSystemProvider {
    */
   fun writeFile(
     uri: Uri,
-    content: Uint8Array,
+    content: Uint8Array<*>,
     options: FileSystemProviderWriteFileOptions,
   ): Union<Unit, Thenable<Unit>> // void | Thenable<void>
 

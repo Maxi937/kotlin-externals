@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Represents an end of line character sequence in a [TextDocument].
@@ -11,13 +11,13 @@ sealed external interface EndOfLine {
     /**
      * The line feed `\n` character.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val LF: EndOfLine
 
     /**
      * The carriage return line feed `\r\n` sequence.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val CRLF: EndOfLine
   }
 }

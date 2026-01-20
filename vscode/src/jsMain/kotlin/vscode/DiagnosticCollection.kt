@@ -1,6 +1,6 @@
 package vscode
 
-import js.array.JsTuple2
+import js.array.Tuple2
 import js.array.ReadonlyArray
 import js.iterable.JsIterable
 
@@ -13,7 +13,7 @@ import js.iterable.JsIterable
  * [vscode.languages.createDiagnosticCollection].
  */
 external interface DiagnosticCollection :
-  JsIterable<JsTuple2<Uri, ReadonlyArray<Diagnostic>>/* [ uri: Uri, diagnostics: readonly Diagnostic[] ] */> {
+  JsIterable<Tuple2<Uri, ReadonlyArray<Diagnostic>>/* [ uri: Uri, diagnostics: readonly Diagnostic[] ] */> {
   /**
    * The name of this diagnostic collection, for instance `typescript`. Every diagnostic
    * from this collection will be associated with this name. Also, the task framework uses this
@@ -44,7 +44,7 @@ external interface DiagnosticCollection :
    * @param entries An array of tuples, like `[[file1, [d1, d2]], [file2, [d3, d4, d5]]]`, or `undefined`.
    */
   fun set(
-    entries: ReadonlyArray<JsTuple2<Uri, ReadonlyArray<Diagnostic>?> /* [ Uri, readonly Diagnostic[] | undefined ] */>,
+    entries: ReadonlyArray<Tuple2<Uri, ReadonlyArray<Diagnostic>?> /* [ Uri, readonly Diagnostic[] | undefined ] */>,
   )
 
   /**

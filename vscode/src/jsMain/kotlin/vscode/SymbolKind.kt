@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * A symbol kind.
@@ -11,157 +11,157 @@ sealed external interface SymbolKind {
     /**
      * The `File` symbol kind.
      */
-    @JsIntValue(0)
+    @JsRawValue("0")
     val File: SymbolKind
 
     /**
      * The `Module` symbol kind.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Module: SymbolKind
 
     /**
      * The `Namespace` symbol kind.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Namespace: SymbolKind
 
     /**
      * The `Package` symbol kind.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val Package: SymbolKind
 
     /**
      * The `Class` symbol kind.
      */
-    @JsIntValue(4)
+    @JsRawValue("4")
     val Class: SymbolKind
 
     /**
      * The `Method` symbol kind.
      */
-    @JsIntValue(5)
+    @JsRawValue("5")
     val Method: SymbolKind
 
     /**
      * The `Property` symbol kind.
      */
-    @JsIntValue(6)
+    @JsRawValue("6")
     val Property: SymbolKind
 
     /**
      * The `Field` symbol kind.
      */
-    @JsIntValue(7)
+    @JsRawValue("7")
     val Field: SymbolKind
 
     /**
      * The `Constructor` symbol kind.
      */
-    @JsIntValue(8)
+    @JsRawValue("8")
     val Constructor: SymbolKind
 
     /**
      * The `Enum` symbol kind.
      */
-    @JsIntValue(9)
+    @JsRawValue("9")
     val Enum: SymbolKind
 
     /**
      * The `Interface` symbol kind.
      */
-    @JsIntValue(10)
+    @JsRawValue("10")
     val Interface: SymbolKind
 
     /**
      * The `Function` symbol kind.
      */
-    @JsIntValue(11)
+    @JsRawValue("11")
     val Function: SymbolKind
 
     /**
      * The `Variable` symbol kind.
      */
-    @JsIntValue(12)
+    @JsRawValue("12")
     val Variable: SymbolKind
 
     /**
      * The `Constant` symbol kind.
      */
-    @JsIntValue(13)
+    @JsRawValue("13")
     val Constant: SymbolKind
 
     /**
      * The `String` symbol kind.
      */
-    @JsIntValue(14)
+    @JsRawValue("14")
     val String: SymbolKind
 
     /**
      * The `Number` symbol kind.
      */
-    @JsIntValue(15)
+    @JsRawValue("15")
     val Number: SymbolKind
 
     /**
      * The `Boolean` symbol kind.
      */
-    @JsIntValue(16)
+    @JsRawValue("16")
     val Boolean: SymbolKind
 
     /**
      * The `Array` symbol kind.
      */
-    @JsIntValue(17)
+    @JsRawValue("17")
     val Array: SymbolKind
 
     /**
      * The `Object` symbol kind.
      */
-    @JsIntValue(18)
+    @JsRawValue("18")
     val Object: SymbolKind
 
     /**
      * The `Key` symbol kind.
      */
-    @JsIntValue(19)
+    @JsRawValue("19")
     val Key: SymbolKind
 
     /**
      * The `Null` symbol kind.
      */
-    @JsIntValue(20)
+    @JsRawValue("20")
     val Null: SymbolKind
 
     /**
      * The `EnumMember` symbol kind.
      */
-    @JsIntValue(21)
+    @JsRawValue("21")
     val EnumMember: SymbolKind
 
     /**
      * The `Struct` symbol kind.
      */
-    @JsIntValue(22)
+    @JsRawValue("22")
     val Struct: SymbolKind
 
     /**
      * The `Event` symbol kind.
      */
-    @JsIntValue(23)
+    @JsRawValue("23")
     val Event: SymbolKind
 
     /**
      * The `Operator` symbol kind.
      */
-    @JsIntValue(24)
+    @JsRawValue("24")
     val Operator: SymbolKind
 
     /**
      * The `TypeParameter` symbol kind.
      */
-    @JsIntValue(25)
+    @JsRawValue("25")
     val TypeParameter: SymbolKind
   }
 }

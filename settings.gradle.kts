@@ -8,7 +8,7 @@ dependencyResolutionManagement {
 
   versionCatalogs {
     create("kotlinWrappers") {
-      val wrappersVersion = "2025.7.11"
+      val wrappersVersion = "2026.1.10"
       from("org.jetbrains.kotlin-wrappers:kotlin-wrappers-catalog:$wrappersVersion")
     }
   }

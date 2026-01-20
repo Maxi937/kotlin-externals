@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * A document highlight kind.
@@ -11,19 +11,19 @@ sealed external interface DocumentHighlightKind {
     /**
      * A textual occurrence.
      */
-    @JsIntValue(0)
+    @JsRawValue("0")
     val Text: DocumentHighlightKind
 
     /**
      * Read-access of a symbol, like reading a variable.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Read: DocumentHighlightKind
 
     /**
      * Write-access of a symbol, like writing to a variable.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Write: DocumentHighlightKind
   }
 }

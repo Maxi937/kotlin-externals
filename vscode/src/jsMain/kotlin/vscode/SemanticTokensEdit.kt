@@ -16,7 +16,7 @@ external class SemanticTokensEdit {
    * @param deleteCount Number of elements to remove.
    * @param data Elements to insert
    */
-  constructor(start: Int, deleteCount: Int, data: Uint32Array = definedExternally)
+  constructor(start: Int, deleteCount: Int, data: Uint32Array<*> = definedExternally)
 
   /**
    * The start offset of the edit.
@@ -31,5 +31,5 @@ external class SemanticTokensEdit {
   /**
    * The elements to insert.
    */
-  val data: Uint32Array?
+  val data: Uint32Array<*>?
 }

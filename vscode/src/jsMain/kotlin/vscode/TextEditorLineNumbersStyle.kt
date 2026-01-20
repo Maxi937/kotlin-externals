@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Rendering style of the line numbers.
@@ -11,25 +11,25 @@ sealed external interface TextEditorLineNumbersStyle {
     /**
      * Do not render the line numbers.
      */
-    @JsIntValue(0)
+    @JsRawValue("0")
     val Off: TextEditorLineNumbersStyle
 
     /**
      * Render the line numbers.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val On: TextEditorLineNumbersStyle
 
     /**
      * Render the line numbers with values relative to the primary cursor location.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Relative: TextEditorLineNumbersStyle
 
     /**
      * Render the line numbers on every 10th line number.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val Interval: TextEditorLineNumbersStyle
   }
 }

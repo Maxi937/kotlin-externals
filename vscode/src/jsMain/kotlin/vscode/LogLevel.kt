@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Log levels
@@ -11,37 +11,37 @@ sealed external interface LogLevel {
     /**
      * No messages are logged with this level.
      */
-    @JsIntValue(0)
+    @JsRawValue("0")
     val Off: LogLevel
 
     /**
      * All messages are logged with this level.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Trace: LogLevel
 
     /**
      * Messages with debug and higher log level are logged with this level.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Debug: LogLevel
 
     /**
      * Messages with info and higher log level are logged with this level.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val Info: LogLevel
 
     /**
      * Messages with warning and higher log level are logged with this level.
      */
-    @JsIntValue(4)
+    @JsRawValue("4")
     val Warning: LogLevel
 
     /**
      * Only error messages are logged with this level.
      */
-    @JsIntValue(5)
+    @JsRawValue("5")
     val Error: LogLevel
   }
 }

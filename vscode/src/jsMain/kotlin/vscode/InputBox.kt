@@ -1,6 +1,6 @@
 package vscode
 
-import js.array.JsTuple2
+import js.array.Tuple2
 import js.array.ReadonlyArray
 import ts.Union
 
@@ -26,7 +26,7 @@ external interface InputBox : QuickInput {
    * This property does not get updated when the user types or makes a selection,
    * but it can be updated by the extension.
    */
-  var valueSelection: JsTuple2<Int, Int>?
+  var valueSelection: Tuple2<Int, Int>?
 
   /**
    * Optional placeholder shown when no value has been input.

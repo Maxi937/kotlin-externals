@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Represents reasons why a text document is saved.
@@ -12,19 +12,19 @@ sealed external interface TextDocumentSaveReason {
      * Manually triggered, e.g. by the user pressing save, by starting debugging,
      * or by an API call.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Manual: TextDocumentSaveReason
 
     /**
      * Automatic after a delay.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val AfterDelay: TextDocumentSaveReason
 
     /**
      * When the editor lost focus.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val FocusOut: TextDocumentSaveReason
   }
 }

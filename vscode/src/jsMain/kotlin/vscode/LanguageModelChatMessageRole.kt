@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Represents the role of a chat message. This is either the user or the assistant.
@@ -11,13 +11,13 @@ sealed external interface LanguageModelChatMessageRole {
     /**
      * The user role, e.g., the human interacting with a language model.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val User: LanguageModelChatMessageRole
 
     /**
      * The assistant role, e.g. the language model generating responses.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Assistant: LanguageModelChatMessageRole
   }
 }

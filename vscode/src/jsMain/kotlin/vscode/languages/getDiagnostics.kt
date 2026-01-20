@@ -3,7 +3,7 @@
 
 package vscode.languages
 
-import js.array.JsTuple2
+import js.array.Tuple2
 import vscode.Diagnostic
 import vscode.Uri
 
@@ -20,4 +20,4 @@ external fun getDiagnostics(resource: Uri): Array<Diagnostic>
  *
  * @return An array of uri-diagnostics tuples or an empty array.
  */
-external fun getDiagnostics(): Array<JsTuple2<Uri, Array<Diagnostic>>> // [ Uri, Diagnostic[] ]
+external fun getDiagnostics(): Array<Tuple2<Uri, Array<Diagnostic>>> // [ Uri, Diagnostic[] ]

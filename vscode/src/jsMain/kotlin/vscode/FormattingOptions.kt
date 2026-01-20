@@ -19,9 +19,8 @@ external interface FormattingOptions {
   /**
    * Signature for further properties.
    */
-  @seskar.js.JsNative
-  operator fun get(key: String): Union3<Boolean, Number, String>? // boolean | number | string
 
-  @seskar.js.JsNative
+  operator fun get(key: String): Union3<Boolean, Number, String>? // boolean | number | string
+  
   operator fun set(key: String, value: Union3<Boolean, Number, String>? /* boolean | number | string */)
 }

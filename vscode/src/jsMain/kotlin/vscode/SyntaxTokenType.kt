@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Enumeration of commonly encountered syntax token types.
@@ -11,25 +11,25 @@ sealed external interface SyntaxTokenType {
     /**
      * Everything except tokens that are part of comments, string literals and regular expressions.
      */
-    @JsIntValue(0)
+    @JsRawValue("0")
     val Other: SyntaxTokenType
 
     /**
      * A comment.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Comment: SyntaxTokenType
 
     /**
      * A string literal.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val String: SyntaxTokenType
 
     /**
      * A regular expression.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val RegEx: SyntaxTokenType
   }
 }

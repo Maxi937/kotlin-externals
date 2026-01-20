@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Checkbox state of the tree item
@@ -11,13 +11,13 @@ sealed external interface TreeItemCheckboxState {
     /**
      * Determines an item is unchecked
      */
-    @JsIntValue(0)
+    @JsRawValue("0")
     val Unchecked: TreeItemCheckboxState
 
     /**
      * Determines an item is checked
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Checked: TreeItemCheckboxState
   }
 }

@@ -19,5 +19,5 @@ external interface CustomDocumentOpenContext {
    *
    * If this is provided, your extension should utilize this byte data rather than executing fs APIs on the URI passed in
    */
-  val untitledDocumentData: Uint8Array?
+  val untitledDocumentData: Uint8Array<*>?
 }

@@ -1,6 +1,6 @@
 package vscode
 
-import js.array.JsTuple2
+import js.array.Tuple2
 import js.iterable.JsIterable
 import ts.Union
 
@@ -8,7 +8,7 @@ import ts.Union
  * A collection of mutations that an extension can apply to a process environment.
  */
 external interface EnvironmentVariableCollection :
-  JsIterable<JsTuple2<String, EnvironmentVariableMutator> /* [ variable: string, mutator: EnvironmentVariableMutator ] */> {
+  JsIterable<Tuple2<String, EnvironmentVariableMutator> /* [ variable: string, mutator: EnvironmentVariableMutator ] */> {
   /**
    * Whether the collection should be cached for the workspace and applied to the terminal
    * across window reloads. When true the collection will be active immediately such when the

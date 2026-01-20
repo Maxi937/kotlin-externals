@@ -2,7 +2,7 @@
 
 package vscode
 
-import js.array.JsTuple2
+import js.array.Tuple2
 import js.iterable.JsIterable
 
 /**
@@ -12,7 +12,7 @@ import js.iterable.JsIterable
  * data transfer. These additional mime types will only be included in the `handleDrop` when the drag was initiated from
  * an element in the same drag and drop controller.
  */
-external class DataTransfer : JsIterable<JsTuple2<String, DataTransferItem>> {
+external class DataTransfer : JsIterable<Tuple2<String, DataTransferItem>> {
   /**
    * Retrieves the data transfer item for a given mime type.
    *

@@ -1,6 +1,6 @@
 package vscode
 
-import js.array.JsTuple2
+import js.array.Tuple2
 import js.typedarrays.Uint8Array
 
 /**
@@ -26,7 +26,7 @@ external interface FileSystem {
    * @param uri The uri of the folder.
    * @return An array of name/type-tuples or a thenable that resolves to such.
    */
-  fun readDirectory(uri: Uri): Thenable<Array<JsTuple2<String, FileType> /* [ string, FileType ] */>>
+  fun readDirectory(uri: Uri): Thenable<Array<Tuple2<String, FileType> /* [ string, FileType ] */>>
 
   /**
    * Create a new directory (Note, that new files are created via `write`-calls).
@@ -44,7 +44,7 @@ external interface FileSystem {
    * @param uri The uri of the file.
    * @return An array of bytes or a thenable that resolves to such.
    */
-  fun readFile(uri: Uri): Thenable<Uint8Array>
+  fun readFile(uri: Uri): Thenable<Uint8Array<*>>
 
   /**
    * Write data to a file, replacing its entire contents.
@@ -54,7 +54,7 @@ external interface FileSystem {
    */
   fun writeFile(
     uri: Uri,
-    content: Uint8Array,
+    content: Uint8Array<*>,
   ): Thenable<Unit>
 
   /**

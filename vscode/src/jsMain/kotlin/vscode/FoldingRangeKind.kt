@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * An enumeration of specific folding range kinds. The kind is an optional field of a [FoldingRange]
@@ -14,19 +14,19 @@ sealed external interface FoldingRangeKind {
     /**
      * Kind for folding range representing a comment.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Comment: FoldingRangeKind
 
     /**
      * Kind for folding range representing a import.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Imports: FoldingRangeKind
 
     /**
      * Kind for folding range representing regions originating from folding markers like `#region` and `#endregion`.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val Region: FoldingRangeKind
   }
 }

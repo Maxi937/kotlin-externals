@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * A location in the editor at which progress information can be shown. It depends on the
@@ -14,21 +14,21 @@ sealed external interface ProgressLocation {
      * inside the viewlet (when visible). Neither supports cancellation nor discrete progress nor
      * a label to describe the operation.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val SourceControl: ProgressLocation
 
     /**
      * Show progress in the status bar of the editor. Neither supports cancellation nor discrete progress.
      * Supports rendering of [ThemeIcon] via the `$(<name>)`-syntax in the progress label.
      */
-    @JsIntValue(10)
+    @JsRawValue("10")
     val Window: ProgressLocation
 
     /**
      * Show progress as notification with an optional cancel button. Supports to show infinite and discrete
      * progress but does not support rendering of icons.
      */
-    @JsIntValue(15)
+    @JsRawValue("15")
     val Notification: ProgressLocation
   }
 }

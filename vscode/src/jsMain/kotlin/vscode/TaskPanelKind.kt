@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Controls how the task channel is used between tasks
@@ -11,20 +11,20 @@ sealed external interface TaskPanelKind {
     /**
      * Shares a panel with other tasks. This is the default.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Shared: TaskPanelKind
 
     /**
      * Uses a dedicated panel for this tasks. The panel is not
      * shared with other tasks.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Dedicated: TaskPanelKind
 
     /**
      * Creates a new panel whenever this task is executed.
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val New: TaskPanelKind
   }
 }

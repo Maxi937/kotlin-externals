@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Represents the severity level of a language status.
@@ -11,19 +11,19 @@ sealed external interface LanguageStatusSeverity {
     /**
      * Informational severity level.
      */
-    @JsIntValue(0)
+    @JsRawValue("0")
     val Information: LanguageStatusSeverity
 
     /**
      * Warning severity level.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Warning: LanguageStatusSeverity
 
     /**
      * Error severity level.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Error: LanguageStatusSeverity
   }
 }

@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * The location of the terminal.
@@ -11,13 +11,13 @@ sealed external interface TerminalLocation {
     /**
      * In the terminal view
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Panel: TerminalLocation
 
     /**
      * In the editor area
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Editor: TerminalLocation
   }
 }

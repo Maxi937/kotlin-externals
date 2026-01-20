@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Describes how an [InlineCompletionItemProvider] was triggered.
@@ -12,14 +12,14 @@ sealed external interface InlineCompletionTriggerKind {
      * Completion was triggered explicitly by a user gesture.
      * Return multiple completion items to enable cycling through them.
      */
-    @JsIntValue(0)
+    @JsRawValue("0")
     val Invoke: InlineCompletionTriggerKind
 
     /**
      * Completion was triggered automatically while editing.
      * It is sufficient to return a single completion item in this case.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Automatic: InlineCompletionTriggerKind
   }
 }

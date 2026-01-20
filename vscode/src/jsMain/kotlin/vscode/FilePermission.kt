@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Permissions of a file.
@@ -16,7 +16,7 @@ sealed external interface FilePermission {
      * is set. As a consequence, it is not possible to have a readonly file system provider
      * registered where some `FileStat` are not readonly.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Readonly: FilePermission
   }
 }

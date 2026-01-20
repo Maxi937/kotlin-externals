@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Debug console mode used by debug session, see [DebugSessionOptions options].
@@ -11,14 +11,14 @@ sealed external interface DebugConsoleMode {
     /**
      * Debug session should have a separate debug console.
      */
-    @JsIntValue(0)
+    @JsRawValue("0")
     val Separate: DebugConsoleMode
 
     /**
      * Debug session should share debug console with its parent session.
      * This value has no effect for sessions which do not have a parent session.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val MergeWithParent: DebugConsoleMode
   }
 }

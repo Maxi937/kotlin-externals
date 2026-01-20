@@ -1,6 +1,5 @@
 package vscode
 
-import seskar.js.JsNative
 
 /**
  * Represents a typed event.
@@ -23,7 +22,7 @@ external interface Event<T> {
    * @param disposables An array to which a [IDisposable] will be added.
    * @return A disposable which unsubscribes the event listener.
    */
-  @JsNative
+//  @JsNative
   operator fun invoke(
     listener: (e: T) -> Any?,
     thisArgs: Any? = definedExternally,

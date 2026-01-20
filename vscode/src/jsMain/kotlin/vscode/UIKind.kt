@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Possible kinds of UI that can use extensions.
@@ -11,13 +11,13 @@ sealed external interface UIKind {
     /**
      * Extensions are accessed from a desktop application.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Desktop: UIKind
 
     /**
      * Extensions are accessed from a web browser.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Web: UIKind
   }
 }

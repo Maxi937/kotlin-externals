@@ -188,6 +188,5 @@ external interface WorkspaceConfiguration {
    * Readable dictionary that backs this configuration.
    */
   @LowPriorityInOverloadResolution
-  @seskar.js.JsNative
   operator fun get(key: String): Any?
 }

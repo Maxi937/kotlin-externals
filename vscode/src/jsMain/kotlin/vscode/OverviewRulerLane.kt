@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import seskar.js.JsRawValue
 
 /**
  * Represents different positions for rendering a decoration in an overview ruler ([DecorationRenderOptions.overviewRulerLane]).
@@ -12,25 +12,25 @@ sealed external interface OverviewRulerLane {
     /**
      * The left lane of the overview ruler.
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Left: OverviewRulerLane
 
     /**
      * The center lane of the overview ruler.
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Center: OverviewRulerLane
 
     /**
      * The right lane of the overview ruler.
      */
-    @JsIntValue(4)
+    @JsRawValue("4")
     val Right: OverviewRulerLane
 
     /**
      * All lanes of the overview ruler.
      */
-    @JsIntValue(7)
+    @JsRawValue("7")
     val Full: OverviewRulerLane
   }
 }
