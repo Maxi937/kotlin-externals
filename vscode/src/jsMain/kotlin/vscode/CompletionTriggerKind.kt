@@ -1,6 +1,7 @@
 package vscode
 
-import seskar.js.JsIntValue
+
+import seskar.js.JsRawValue
 
 /**
  * How a [CompletionItemProvider] was triggered
@@ -11,7 +12,7 @@ sealed external interface CompletionTriggerKind {
     /**
      * Completion was triggered normally.
      */
-    @JsIntValue(0)
+    @JsRawValue("0")
     val Invoke: CompletionTriggerKind
 
     /**

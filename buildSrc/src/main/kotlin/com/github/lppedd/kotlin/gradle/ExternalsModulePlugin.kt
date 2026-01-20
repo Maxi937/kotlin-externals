@@ -14,12 +14,11 @@ import org.gradle.api.Project
 import org.gradle.configurationcache.extensions.capitalized
 import org.gradle.kotlin.dsl.*
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
+import org.jetbrains.kotlin.gradle.dsl.KotlinJsCompile
 import org.jetbrains.kotlin.gradle.dsl.KotlinVersion
 import org.jetbrains.kotlin.gradle.plugin.KotlinMultiplatformPluginWrapper
-import org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.targets.js.dsl.KotlinJsSubTargetDsl
-import org.jetbrains.kotlin.gradle.targets.js.dsl.KotlinWasmJsTargetDsl
-import org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootPlugin.Companion.kotlinNodeJsExtension
 import org.jetbrains.kotlin.gradle.targets.js.yarn.yarn
 import org.jetbrains.kotlin.gradle.tasks.Kotlin2JsCompile
 import seskar.gradle.plugin.SeskarGradleSubplugin
@@ -43,9 +42,9 @@ class ExternalsModulePlugin : Plugin<Project> {
     }
 
     // Set the global Node.js version
-    project.rootProject.kotlinNodeJsExtension.also {
-      it.version = project.rootProject.stringProperty("kotlin.nodejs.version")
-    }
+//    project.rootProject.kotlinNodeJsExtension.also {
+//      it.version = project.rootProject.stringProperty("kotlin.nodejs.version")
+//    }
 
     val tsDeclarations = project.extensions.create<TsDeclarations>("declarations")
 
@@ -56,11 +55,11 @@ class ExternalsModulePlugin : Plugin<Project> {
 
     // General Kotlin multiplatform configuration
     val kmp = project.kmpExtension
-    kmp.compilerOptions {
-      apiVersion.set(KotlinVersion.KOTLIN_2_1)
-      languageVersion.set(KotlinVersion.KOTLIN_2_1)
-      freeCompilerArgs.add("-XXLanguage:+JsAllowInvalidCharsIdentifiersEscaping")
-    }
+//    kmp.compilerOptions {
+//      apiVersion.set(KotlinVersion.KOTLIN_2_1)
+//      languageVersion.set(KotlinVersion.KOTLIN_2_1)
+//      freeCompilerArgs.add("-XXLanguage:+JsAllowInvalidCharsIdentifiersEscaping")
+//    }
 
     kmp.js {
       val config: KotlinJsSubTargetDsl.() -> Unit = {
@@ -76,19 +75,19 @@ class ExternalsModulePlugin : Plugin<Project> {
       useCommonJs()
     }
 
-    if(project.name == "vscode") {
-      kmp.wasmJs() {
-        nodejs()
-        browser()
-        useCommonJs()
-      }
-    }
+//    if(project.name == "vscode") {
+//      kmp.wasmJs() {
+//        nodejs()
+//        browser()
+//        useCommonJs()
+//      }
+//    }
 
     // Compile to ES classes for better debuggability.
     // This is the only way it works for prod/dev/test compilations.
     // See discussion in https://youtrack.jetbrains.com/issue/KT-56818
-    project.tasks.withType<Kotlin2JsCompile>().configureEach {
-      kotlinOptions {
+    project.tasks.withType<KotlinJsCompile>().configureEach {
+      compilerOptions {
         useEsClasses = true
       }
     }
@@ -121,7 +120,9 @@ class ExternalsModulePlugin : Plugin<Project> {
     // Register a task to copy TypeScript declaration files from the npm package
     project.tasks.register<CopyTsDeclarationsTask>(CopyTsDeclarationsTask.TASK_NAME) {
       val npmInstallTask = project.rootProject.tasks.named("kotlinNpmInstall")
-      dependsOn(npmInstallTask, "clean${name.capitalized()}")
+      dependsOn(npmInstallTask, "clean${
+        name.toString().replaceFirstChar { if (it.isLowerCase()) it.titlecase() else it.toString() }
+      }")
 
       val packageName = tsDeclarations.packageName.get()
       val basePath = tsDeclarations.basePath.getOrElse("")

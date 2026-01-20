@@ -1,16 +1,12 @@
 [versions]
-kotlin = "2.0.0"
-wrappers-kotlin-js = "2026.1.10"
-wrappers-kotlin-node = "2026.1.10-24.10.4"
+kotlin = "2.3.0"
 ktlint = "0.9.0"
-seskar = "3.6.0"
+seskar = "4.32.0"
 karakum = "1.0.0-alpha.46"
 maven-publish = "0.29.0"
 jnpm = "1.6"
 
 [libraries]
-kotlin-wrappers-js = { group = "org.jetbrains.kotlin-wrappers", name = "kotlin-js", version.ref = "wrappers-kotlin-js" }
-kotlin-wrappers-node = { group = "org.jetbrains.kotlin-wrappers", name = "kotlin-node", version.ref = "wrappers-kotlin-node" }
 jnpm = { group = "org.orienteer.jnpm", name = "jnpm", version.ref = "jnpm" }
 
 # Gradle

@@ -1,6 +1,6 @@
 package vscode
 
-import js.array.JsTuple2
+import js.array.Tuple2
 import ts.Union4
 
 /**
@@ -19,7 +19,7 @@ external interface ChatPromptReference {
    * *Note* that the indices take the leading `#`-character into account which means they can
    * be used to modify the prompt as-is.
    */
-  val range: JsTuple2<Int, Int>?
+  val range: Tuple2<Int, Int>?
 
   /**
    * A description of this value that could be used in an LLM prompt.

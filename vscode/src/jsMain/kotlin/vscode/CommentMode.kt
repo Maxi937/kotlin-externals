@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import js.JsInt
 
 /**
  * Comment mode of a [Comment]
@@ -11,13 +11,13 @@ sealed external interface CommentMode {
     /**
      * Displays the comment editor
      */
-    @JsIntValue(0)
+    @JsInt(0)
     val Editing: CommentMode
 
     /**
      * Displays the preview of the comment
      */
-    @JsIntValue(1)
+    @JsInt(1)
     val Preview: CommentMode
   }
 }

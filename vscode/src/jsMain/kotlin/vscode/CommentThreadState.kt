@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import js.JsInt
 
 /**
  * The state of a comment thread.
@@ -11,13 +11,13 @@ sealed external interface CommentThreadState {
     /**
      * Unresolved thread state
      */
-    @JsIntValue(0)
+    @JsInt(0)
     val Unresolved: CommentThreadState
 
     /**
      * Resolved thread state
      */
-    @JsIntValue(1)
+    @JsInt(1)
     val Resolved: CommentThreadState
   }
 }

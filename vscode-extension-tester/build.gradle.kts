@@ -21,8 +21,8 @@ kotlin {
     jsMain {
       dependencies {
         implementation(npm(npmName, npmVersion))
-        api(libs.kotlin.wrappers.js)
-        api(libs.kotlin.wrappers.node)
+        api(kotlinWrappers.js)
+        api(kotlinWrappers.node)
       }
     }
   }

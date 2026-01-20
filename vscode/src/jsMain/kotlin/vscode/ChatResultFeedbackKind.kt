@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import js.JsInt
 
 /**
  * Represents the type of user feedback received.
@@ -11,13 +11,13 @@ sealed external interface ChatResultFeedbackKind {
     /**
      * The user marked the result as unhelpful.
      */
-    @JsIntValue(0)
+    @JsInt(0)
     val Unhelpful: ChatResultFeedbackKind
 
     /**
      * The user marked the result as helpful.
      */
-    @JsIntValue(1)
+    @JsInt(1)
     val Helpful: ChatResultFeedbackKind
   }
 }

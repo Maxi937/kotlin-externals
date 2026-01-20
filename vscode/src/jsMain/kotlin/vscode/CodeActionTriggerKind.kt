@@ -1,6 +1,7 @@
 package vscode
 
-import seskar.js.JsIntValue
+import js.JsInt
+
 
 /**
  * The reason why code actions were requested.
@@ -11,7 +12,7 @@ sealed external interface CodeActionTriggerKind {
     /**
      * Code actions were explicitly requested by the user or by an extension.
      */
-    @JsIntValue(1)
+    @JsInt(1)
     val Invoke: CodeActionTriggerKind
 
     /**
@@ -20,7 +21,7 @@ sealed external interface CodeActionTriggerKind {
      * This typically happens when current selection in a file changes, but can
      * also be triggered when file content changes.
      */
-    @JsIntValue(2)
+    @JsInt(2)
     val Automatic: CodeActionTriggerKind
   }
 }

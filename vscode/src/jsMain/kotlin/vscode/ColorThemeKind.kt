@@ -1,6 +1,8 @@
 package vscode
 
-import seskar.js.JsIntValue
+
+import js.JsInt
+
 
 /**
  * Represents a color theme kind.
@@ -11,25 +13,25 @@ sealed external interface ColorThemeKind {
     /**
      * A light color theme.
      */
-    @JsIntValue(1)
+    @JsInt(1)
     val Light: ColorThemeKind
 
     /**
      * A dark color theme.
      */
-    @JsIntValue(2)
+    @JsInt(2)
     val Dark: ColorThemeKind
 
     /**
      * A dark high contrast color theme.
      */
-    @JsIntValue(3)
+    @JsInt(3)
     val HighContrast: ColorThemeKind
 
     /**
      * A light high contrast color theme.
      */
-    @JsIntValue(4)
+    @JsInt(4)
     val HighContrastLight: ColorThemeKind
   }
 }

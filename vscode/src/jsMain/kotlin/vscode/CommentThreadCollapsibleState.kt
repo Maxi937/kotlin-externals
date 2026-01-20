@@ -1,6 +1,6 @@
 package vscode
 
-import seskar.js.JsIntValue
+import js.JsInt
 
 /**
  * Collapsible state of a [CommentThread]
@@ -11,13 +11,13 @@ sealed external interface CommentThreadCollapsibleState {
     /**
      * Determines an item is collapsed
      */
-    @JsIntValue(0)
+    @JsInt(0)
     val Collapsed: CommentThreadCollapsibleState
 
     /**
      * Determines an item is expanded
      */
-    @JsIntValue(1)
+    @JsInt(1)
     val Expanded: CommentThreadCollapsibleState
   }
 }

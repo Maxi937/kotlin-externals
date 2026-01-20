@@ -1,8 +1,6 @@
-@file:OptIn(ExperimentalWasmDsl::class)
+@file:OptIn(org.jetbrains.kotlin.gradle.ExperimentalWasmDsl::class)
 
-import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
-import org.jetbrains.kotlin.gradle.dsl.KotlinVersion
-import org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl
+
 
 plugins {
   kotlin("multiplatform")
@@ -12,12 +10,12 @@ plugins {
 version = "1.0.0"
 
 kotlin {
-  @OptIn(ExperimentalKotlinGradlePluginApi::class)
-  compilerOptions {
-    apiVersion.set(KotlinVersion.KOTLIN_1_9)
-    languageVersion.set(KotlinVersion.KOTLIN_1_9)
-    freeCompilerArgs.add("-Xallow-kotlin-package")
-  }
+//  @OptIn(ExperimentalKotlinGradlePluginApi::class)
+//  compilerOptions {
+//    apiVersion.set(KotlinVersion.KOTLIN_2_1)
+//    languageVersion.set(KotlinVersion.KOTLIN_2_1)
+//    freeCompilerArgs.add("-Xallow-kotlin-package")
+//  }
 
   js {
     nodejs()

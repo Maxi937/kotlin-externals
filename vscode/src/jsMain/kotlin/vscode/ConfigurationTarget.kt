@@ -1,6 +1,7 @@
 package vscode
 
-import seskar.js.JsIntValue
+import js.JsInt
+import seskar.js.JsRawValue
 
 /**
  * The configuration target
@@ -11,19 +12,19 @@ sealed external interface ConfigurationTarget {
     /**
      * Global configuration
      */
-    @JsIntValue(1)
+    @JsRawValue("1")
     val Global: ConfigurationTarget
 
     /**
      * Workspace configuration
      */
-    @JsIntValue(2)
+    @JsRawValue("2")
     val Workspace: ConfigurationTarget
 
     /**
      * Workspace folder configuration
      */
-    @JsIntValue(3)
+    @JsRawValue("3")
     val WorkspaceFolder: ConfigurationTarget
   }
 }
