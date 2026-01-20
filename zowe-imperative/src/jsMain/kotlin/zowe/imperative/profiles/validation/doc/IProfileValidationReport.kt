@@ -1,7 +1,7 @@
 package zowe.imperative.profiles.validation.doc
 
 import zowe.imperative.profiles.doc.definition.IProfile
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Complete report of the results of profile validation

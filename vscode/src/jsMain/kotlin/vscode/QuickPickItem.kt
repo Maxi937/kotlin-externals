@@ -1,7 +1,7 @@
 package vscode
 
 import js.array.ReadonlyArray
-import kotlin.ts.Union3
+import ts.Union3
 
 /**
  * Represents an item that can be selected from

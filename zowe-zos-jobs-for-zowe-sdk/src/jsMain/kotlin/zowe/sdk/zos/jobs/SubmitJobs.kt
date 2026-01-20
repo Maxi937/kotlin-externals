@@ -7,7 +7,7 @@ import zowe.imperative.rest.session.AbstractSession
 import zowe.sdk.zos.jobs.doc.input.*
 import zowe.sdk.zos.jobs.doc.response.IJob
 import zowe.sdk.zos.jobs.doc.response.ISpoolFile
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Class to handle submitting of z/OS batch jobs via z/OSMF

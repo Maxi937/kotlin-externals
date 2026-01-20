@@ -1,7 +1,7 @@
 package vscode
 
 import js.array.ReadonlyArray
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Entry point to discover and execute tests. It contains [TestController.items] which

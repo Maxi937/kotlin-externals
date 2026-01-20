@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Represents theme specific rendering styles for [ThemableDecorationRenderOptions.before] and

@@ -27,7 +27,7 @@ import zowe.sdk.zos.jobs.doc.response.IJobFeedback
 import zowe.sdk.zos.jobs.doc.response.IJobFile
 import zowe.sdk.zos.tso.doc.IIssueResponse
 import zowe.sdk.zos.tso.doc.input.IStartTsoParms
-import kotlin.ts.Partial
+import ts.Partial
 
 /**
  * This namespace provides interfaces for all the external APIs provided by this VS Code Extension.

@@ -5,7 +5,7 @@ import zowe.imperative.cmd.doc.ICommandDefinition
 import zowe.imperative.cmd.doc.args.ICommandArguments
 import zowe.imperative.cmd.doc.response.api.handler.IHandlerResponseApi
 import zowe.imperative.cmd.profiles.CommandProfiles
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * The handler parameters are passed to the instantiated command handler and populated by the

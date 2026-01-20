@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union3
+import ts.Union3
 
 /**
  * A chat participant can be invoked by the user in a chat session, using the `@` prefix.

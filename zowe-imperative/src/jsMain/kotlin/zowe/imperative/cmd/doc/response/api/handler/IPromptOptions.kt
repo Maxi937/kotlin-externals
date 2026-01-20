@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc.response.api.handler
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Interface for prompt options

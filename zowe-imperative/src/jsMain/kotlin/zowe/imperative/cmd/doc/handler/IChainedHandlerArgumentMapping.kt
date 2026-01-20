@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc.handler
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Interface describing constructing command line arguments for chained handlers.

@@ -1,7 +1,7 @@
 package zowe.sdk.core.apiml.doc
 
 import zowe.imperative.config.doc.IConfigLayer
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This structure is used to form the auto-init output report.

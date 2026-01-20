@@ -3,7 +3,7 @@
 package vscode
 
 import js.array.ReadonlyArray
-import kotlin.ts.Union4
+import ts.Union4
 
 /**
  * Represents a chat participant's response in chat history.

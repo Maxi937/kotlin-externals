@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc.args
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Imperative command arguments. Originally created by Yargs parse and

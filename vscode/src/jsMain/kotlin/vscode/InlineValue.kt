@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union3
+import ts.Union3
 
 /**
  * Inline value information can be provided by different means:

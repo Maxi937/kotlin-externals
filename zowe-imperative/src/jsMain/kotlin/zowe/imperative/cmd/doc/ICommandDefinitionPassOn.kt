@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Allows you to "pass on" traits from the current definition to all children (assuming they meet

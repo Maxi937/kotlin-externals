@@ -1,6 +1,6 @@
 @file:Suppress("unused", "UNUSED_TYPEALIAS_PARAMETER")
 
-package kotlin.ts
+package ts
 
 typealias Union<One, Two> = Any
 typealias Union3<One, Two, Three> = Any

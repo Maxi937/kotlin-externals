@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc.profiles.definition
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Profile load specifications - causes profiles to auto-load for this command and will cause

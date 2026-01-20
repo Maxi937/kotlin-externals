@@ -2,6 +2,7 @@
 
 package zowe.imperative.console
 
+import js.JsString
 import zowe.imperative.console.doc.IConsole
 
 /**

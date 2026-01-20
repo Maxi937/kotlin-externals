@@ -6,7 +6,7 @@ import js.promise.Promise
 import zowe.imperative.cmd.doc.args.ICommandArguments
 import zowe.imperative.rest.session.doc.IOptionsForAddConnProps
 import zowe.imperative.rest.session.doc.ISession
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * This class adds connection information to an existing session configuration object for making

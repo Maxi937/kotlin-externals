@@ -1,7 +1,7 @@
 package zowe.imperative.profiles.doc.parms
 
 import zowe.imperative.cmd.doc.args.ICommandArguments
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Parameters for creating a profile from command line arguments - normally invoked from a command

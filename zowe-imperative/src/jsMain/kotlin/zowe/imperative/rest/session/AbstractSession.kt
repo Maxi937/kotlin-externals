@@ -2,6 +2,9 @@
 
 package zowe.imperative.rest.session
 
+import js.JsInt
+import js.JsString
+import js.`true`
 import zowe.imperative.rest.session.doc.ISession
 import kotlin.js.RegExp
 

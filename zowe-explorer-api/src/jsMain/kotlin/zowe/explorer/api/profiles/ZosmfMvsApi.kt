@@ -14,7 +14,7 @@ import zowe.sdk.zos.files.methods.download.doc.IDownloadOptions
 import zowe.sdk.zos.files.methods.list.doc.IDsmListOptions
 import zowe.sdk.zos.files.methods.list.doc.IListOptions
 import zowe.sdk.zos.files.methods.upload.doc.IUploadOptions
-import kotlin.ts.Partial
+import ts.Partial
 
 /**
  * An implementation of the Zowe Explorer MVS API interface for zOSMF.

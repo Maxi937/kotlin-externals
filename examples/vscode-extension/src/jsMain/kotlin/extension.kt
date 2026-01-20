@@ -1,3 +1,4 @@
+import js.add
 import vscode.ExtensionContext
 import vscode.commands.registerCommand
 import vscode.window.showInformationMessage

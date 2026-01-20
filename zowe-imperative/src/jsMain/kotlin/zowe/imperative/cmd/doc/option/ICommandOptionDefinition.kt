@@ -2,7 +2,7 @@ package zowe.imperative.cmd.doc.option
 
 import js.array.JsTuple2
 import js.objects.Record
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Used on a command definition to define option flags.

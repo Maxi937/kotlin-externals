@@ -1,6 +1,6 @@
 package zowe.imperative.logger.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 @JsPlainObject
 external interface ILog4jsLayout {

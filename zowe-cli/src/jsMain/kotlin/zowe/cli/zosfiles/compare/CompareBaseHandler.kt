@@ -9,7 +9,7 @@ import zowe.imperative.cmd.doc.args.ICommandArguments
 import zowe.imperative.cmd.doc.handler.IHandlerParameters
 import zowe.imperative.rest.session.AbstractSession
 import zowe.sdk.zos.files.doc.IZosFilesResponse
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * This class is used by the various zosfiles-compare handlers as the base class for their implementation.

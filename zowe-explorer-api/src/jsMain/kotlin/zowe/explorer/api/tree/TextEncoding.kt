@@ -1,6 +1,7 @@
 package zowe.explorer.api.tree
 
-import kotlin.ts.Readonly
+import js.JsString
+import ts.Readonly
 
 external interface TextEncoding : ZosEncoding {
   @JsString("text")

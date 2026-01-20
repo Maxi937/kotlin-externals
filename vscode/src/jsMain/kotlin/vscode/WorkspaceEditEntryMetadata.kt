@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union3
+import ts.Union3
 
 /**
  * Additional data for entries of a workspace edit. Supports to label entries and marks entries

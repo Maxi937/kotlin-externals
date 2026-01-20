@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Provider for creating `WebviewView` elements.

@@ -2,6 +2,7 @@
 
 package zowe.sdk.core.constants
 
+import js.JsString
 import zowe.imperative.cmd.doc.ICommandExampleDefinition
 import zowe.imperative.cmd.doc.option.ICommandOptionDefinition
 import zowe.imperative.cmd.doc.profiles.definition.ICommandProfileTypeConfiguration

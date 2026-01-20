@@ -2,6 +2,7 @@
 
 package vscode.extension.tester
 
+import js.JsString
 import js.promise.Promise
 import vscode.extension.tester.util.ReleaseQuality
 

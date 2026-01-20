@@ -2,6 +2,9 @@
 
 package zowe.explorer.api.globals
 
+import js.JsInt
+import js.JsString
+
 @JsString("Zowe Explorer")
 external val ZOWE_EXPLORER: String
 

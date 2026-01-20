@@ -1,6 +1,6 @@
 package zowe.imperative.security.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This interface represents the association of plugin name, VS Code extension name, and credential

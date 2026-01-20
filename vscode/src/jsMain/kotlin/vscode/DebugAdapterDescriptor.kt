@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union4
+import ts.Union4
 
 /**
  * Represents the different types of debug adapters

@@ -2,6 +2,8 @@
 
 package zowe.imperative.constants
 
+import js.JsString
+
 /**
  * Imperative constants
  */

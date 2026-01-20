@@ -1,7 +1,7 @@
 package zowe.imperative.error.doc
 
 import zowe.imperative.logger.Logger
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Imperative Standard Error - All Imperative services/utils must thrown an Imperative Error (not a

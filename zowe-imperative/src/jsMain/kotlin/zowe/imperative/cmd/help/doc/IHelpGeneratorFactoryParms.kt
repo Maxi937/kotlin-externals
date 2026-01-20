@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.help.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Input to the help generator factory - normally built by imperative and passed to the command

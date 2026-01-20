@@ -5,7 +5,7 @@ package mocha.mocha
 
 import nodejs.EventEmitter
 import kotlin.internal.LowPriorityInOverloadResolution
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Initialize a new `Runnable` with the given `title` and callback `fn`.

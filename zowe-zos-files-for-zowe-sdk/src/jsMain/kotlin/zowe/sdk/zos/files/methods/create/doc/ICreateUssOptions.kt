@@ -1,7 +1,7 @@
 package zowe.sdk.zos.files.methods.create.doc
 
 import zowe.sdk.zos.files.doc.IZosFilesOptions
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Interface for the options to the create uss file or directory API.

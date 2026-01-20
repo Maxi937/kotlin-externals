@@ -1,7 +1,7 @@
 package zowe.sdk.zos.files.methods.delete.doc
 
 import zowe.sdk.zos.files.doc.IZosFilesOptions
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This interface defines a few optional options that can be sent on a VSAM

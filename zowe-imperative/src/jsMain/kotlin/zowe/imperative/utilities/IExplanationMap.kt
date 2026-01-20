@@ -1,6 +1,6 @@
 package zowe.imperative.utilities
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Interface of an explanation map object

@@ -1,4 +1,4 @@
-package kotlin.js.plain
+package js.plain
 
 /**
  * Temporary annotation that indicates an interface type

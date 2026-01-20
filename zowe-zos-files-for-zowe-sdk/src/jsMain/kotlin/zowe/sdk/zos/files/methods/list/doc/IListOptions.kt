@@ -2,7 +2,7 @@ package zowe.sdk.zos.files.methods.list.doc
 
 import zowe.sdk.zos.files.doc.IZosFilesOptions
 import zowe.sdk.zos.files.doc.types.ZosmfMigratedRecallOptions
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This interface defines the options that can be sent into the dwanload data set function

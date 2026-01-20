@@ -1,6 +1,6 @@
 package zowe.cli.daemon.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Represents the content of the JSON file into which the Zowe Daemon

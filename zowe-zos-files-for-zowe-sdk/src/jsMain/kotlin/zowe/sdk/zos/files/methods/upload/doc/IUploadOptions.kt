@@ -2,7 +2,7 @@ package zowe.sdk.zos.files.methods.upload.doc
 
 import zowe.sdk.zos.files.doc.IOptions
 import zowe.sdk.zos.files.utils.ZosFilesAttributes
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This interface defines the options that can be sent into the upload data set function

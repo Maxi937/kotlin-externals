@@ -1,7 +1,7 @@
 package vscode
 
 import js.date.Date
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * A comment is displayed within the editor or the Comments Panel, depending on how it is provided.

@@ -4,7 +4,7 @@ package zowe.imperative.imperative.plugins
 
 import js.promise.Promise
 import zowe.imperative.error.ImperativeError
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * An optional module of a plugin extends this class to perform actions during the installation

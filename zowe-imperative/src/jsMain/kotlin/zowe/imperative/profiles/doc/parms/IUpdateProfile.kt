@@ -1,7 +1,7 @@
 package zowe.imperative.profiles.doc.parms
 
 import zowe.imperative.profiles.doc.definition.IProfile
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Parameters to update a profile - The basic implementation simply overwrites the existing profile

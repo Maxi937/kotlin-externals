@@ -8,7 +8,7 @@ import zowe.cli.zosfiles.compare.CompareBaseHandler
 import zowe.cli.zosfiles.compare.CompareBaseHelper
 import zowe.imperative.cmd.doc.args.ICommandArguments
 import zowe.imperative.rest.session.AbstractSession
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Handler to compare spooldd's content

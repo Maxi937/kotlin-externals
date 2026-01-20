@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc.handler
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * A single link in a chain of chained handlers. Specifies which handler to call and how to direct

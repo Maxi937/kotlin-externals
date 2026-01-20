@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc.response.response
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * The output format object is returned from a successful command handler to dictate how the output

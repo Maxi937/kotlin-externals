@@ -1,7 +1,7 @@
 package zowe.sdk.core.apiml.doc
 
 import zowe.imperative.imperative.doc.IApimlSvcAttrs
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Once getPluginApimlConfigs() has processed the loaded ImperativeConfig,

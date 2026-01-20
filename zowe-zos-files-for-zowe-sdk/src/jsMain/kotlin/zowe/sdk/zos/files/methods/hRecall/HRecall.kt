@@ -8,7 +8,7 @@ import zowe.imperative.rest.session.AbstractSession
 import zowe.sdk.core.rest.ZosmfRestClient
 import zowe.sdk.zos.files.doc.IZosFilesResponse
 import zowe.sdk.zos.files.methods.hRecall.doc.IRecallOptions
-import kotlin.ts.Partial
+import ts.Partial
 
 /**
  * This class holds helper functions that are used to recall data sets through the

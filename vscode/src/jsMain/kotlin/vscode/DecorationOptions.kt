@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Represents options for a specific decoration in a decoration set ([TextEditorDecorationType]).

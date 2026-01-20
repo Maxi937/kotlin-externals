@@ -1,7 +1,7 @@
 package vscode
 
-import kotlin.ts.Union
-import kotlin.ts.Union3
+import ts.Union
+import ts.Union3
 
 /**
  * A data provider that provides tree data

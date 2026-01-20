@@ -1,5 +1,7 @@
 package mocha.mocha
 
+import js.JsString
+
 external interface RunnerConstants {
   @JsString("hook")
   val EVENT_HOOK_BEGIN: String

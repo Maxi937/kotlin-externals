@@ -2,6 +2,8 @@
 
 package zowe.imperative.rest.session
 
+import js.JsString
+
 /**
  * http protocol
  */

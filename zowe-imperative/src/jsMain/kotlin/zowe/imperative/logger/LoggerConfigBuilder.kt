@@ -2,6 +2,8 @@
 
 package zowe.imperative.logger
 
+import js.JsInt
+import js.JsString
 import zowe.imperative.logger.doc.IConfigLogging
 
 external class LoggerConfigBuilder {

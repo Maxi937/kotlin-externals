@@ -2,7 +2,7 @@ package zowe.imperative.profiles.doc.config
 
 import zowe.imperative.profiles.doc.definition.IProfileDependency
 import zowe.imperative.profiles.doc.definition.IProfileSchema
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * The profile "type" configuration document. Provides all configuration information for the "type".

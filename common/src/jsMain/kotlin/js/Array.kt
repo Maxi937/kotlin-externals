@@ -1,4 +1,4 @@
-package kotlin.js
+package js
 
 /**
  * Adds the specified [element] to the end of the array and returns the new length of the array.

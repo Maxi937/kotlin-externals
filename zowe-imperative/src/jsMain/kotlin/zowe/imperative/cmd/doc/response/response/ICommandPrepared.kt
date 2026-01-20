@@ -2,7 +2,7 @@ package zowe.imperative.cmd.doc.response.response
 
 import zowe.imperative.cmd.doc.args.ICommandArguments
 import zowe.imperative.cmd.profiles.CommandProfiles
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Command Processor prepare response.

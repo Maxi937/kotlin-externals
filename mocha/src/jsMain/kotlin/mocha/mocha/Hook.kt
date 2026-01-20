@@ -3,6 +3,7 @@
 
 package mocha.mocha
 
+import js.JsString
 import kotlin.internal.LowPriorityInOverloadResolution
 
 /**

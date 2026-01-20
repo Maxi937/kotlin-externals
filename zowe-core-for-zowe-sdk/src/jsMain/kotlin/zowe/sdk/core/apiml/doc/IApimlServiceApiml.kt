@@ -1,7 +1,7 @@
 package zowe.sdk.core.apiml.doc
 
 import IApimlServiceApiInfo
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 @JsPlainObject
 external interface IApimlServiceApiml {

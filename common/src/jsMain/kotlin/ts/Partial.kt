@@ -1,4 +1,4 @@
-package kotlin.ts
+package ts
 
 /**
  * Indicates that a type should be wrapped in a TypeScript `Partial<T>`,

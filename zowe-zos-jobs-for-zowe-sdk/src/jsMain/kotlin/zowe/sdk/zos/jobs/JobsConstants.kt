@@ -2,6 +2,8 @@
 
 package zowe.sdk.zos.jobs
 
+import js.JsString
+
 /**
  * Constants for various job related info
  */

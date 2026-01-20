@@ -1,5 +1,7 @@
 package mocha.mocha
 
+import js.JsString
+
 external interface SuiteConstants {
   @JsString("post-require")
   val EVENT_FILE_POST_REQUIRE: String

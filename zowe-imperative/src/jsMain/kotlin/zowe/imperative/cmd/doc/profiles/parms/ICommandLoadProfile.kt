@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc.profiles.parms
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Command profile loader internal parameters.

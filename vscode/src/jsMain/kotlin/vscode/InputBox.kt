@@ -2,7 +2,7 @@ package vscode
 
 import js.array.JsTuple2
 import js.array.ReadonlyArray
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * A concrete [QuickInput] to let the user input a text value.

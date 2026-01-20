@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * A provider result represents the values a provider, like the [HoverProvider],

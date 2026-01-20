@@ -1,7 +1,7 @@
 package vscode.test.electron
 
 import js.objects.Record
-import kotlin.ts.Union
+import ts.Union
 
 external interface TestOptions {
   /**

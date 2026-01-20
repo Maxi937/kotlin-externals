@@ -2,7 +2,7 @@
 
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Represents the signature of something callable. A signature

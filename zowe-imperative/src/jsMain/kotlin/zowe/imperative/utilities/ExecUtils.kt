@@ -4,7 +4,7 @@ package zowe.imperative.utilities
 
 import node.buffer.Buffer
 import node.childProcess.SpawnSyncOptions
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * A collection of utilities related to executing a sub-process.

@@ -2,6 +2,7 @@
 
 package zowe.imperative.settings
 
+import js.`false`
 import zowe.imperative.settings.doc.ISettingsFile
 import zowe.imperative.settings.errors.SettingsNotInitialized
 import zowe.imperative.settings.persistance.ISettingsFilePersistence

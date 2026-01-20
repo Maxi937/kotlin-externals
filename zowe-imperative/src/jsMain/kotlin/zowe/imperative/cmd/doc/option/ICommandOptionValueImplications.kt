@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc.option
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Interface describing syntax validation rule where specifying a certain value means that the user

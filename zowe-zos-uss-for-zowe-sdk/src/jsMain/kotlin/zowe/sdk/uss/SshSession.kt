@@ -2,6 +2,7 @@
 
 package zowe.sdk.uss
 
+import js.JsInt
 import zowe.imperative.cmd.doc.args.ICommandArguments
 import zowe.imperative.cmd.doc.option.ICommandOptionDefinition
 import zowe.sdk.uss.doc.ISshSession

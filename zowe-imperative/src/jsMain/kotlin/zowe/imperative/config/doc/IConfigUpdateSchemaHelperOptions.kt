@@ -1,7 +1,7 @@
 package zowe.imperative.config.doc
 
 import zowe.imperative.config.Config
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 @JsPlainObject
 external interface IConfigUpdateSchemaHelperOptions {

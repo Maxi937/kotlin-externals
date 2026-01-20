@@ -1,6 +1,6 @@
 package mocha.mocha
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * [bdd, tdd] Describe a "suite" with the given `title` and callback `fn` containing

@@ -1,6 +1,6 @@
 package zowe.imperative.config.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * The attributes of a profile argument.

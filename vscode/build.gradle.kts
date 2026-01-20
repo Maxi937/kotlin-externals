@@ -23,5 +23,12 @@ kotlin {
         api(libs.kotlin.wrappers.js)
       }
     }
+
+    wasmJsMain {
+      dependencies {
+        implementation(devNpm(npmName, npmVersion))
+        api(libs.kotlin.wrappers.js)
+      }
+    }
   }
 }

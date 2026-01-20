@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc.response.response
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Describes the operand in error and provides the full definition for the option/operand - normally

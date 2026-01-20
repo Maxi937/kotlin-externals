@@ -1,6 +1,6 @@
 package zowe.imperative.profiles.doc.parms
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Optional parameters to profile manager load all profiles

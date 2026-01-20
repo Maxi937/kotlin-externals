@@ -2,6 +2,7 @@
 
 package zowe.imperative.imperative.env
 
+import js.JsString
 import zowe.imperative.imperative.doc.IImperativeEnvironmentalVariableSettings
 
 /**

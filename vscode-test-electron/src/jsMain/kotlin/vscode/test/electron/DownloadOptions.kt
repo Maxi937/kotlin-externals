@@ -1,6 +1,6 @@
 package vscode.test.electron
 
-import kotlin.ts.Union
+import ts.Union
 
 external interface DownloadOptions {
   /**

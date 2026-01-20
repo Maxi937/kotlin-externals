@@ -3,7 +3,7 @@
 package vscode
 
 import js.array.JsTuple2
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Represents a parameter of a callable-signature. A parameter can

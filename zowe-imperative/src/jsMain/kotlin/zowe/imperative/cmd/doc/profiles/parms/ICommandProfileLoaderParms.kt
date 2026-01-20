@@ -4,7 +4,7 @@ import zowe.imperative.cmd.doc.ICommandDefinition
 import zowe.imperative.cmd.doc.profiles.definition.ICommandProfileTypeConfiguration
 import zowe.imperative.logger.Logger
 import zowe.imperative.profiles.doc.api.IProfileManagerFactory
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Control parameters for the command profile loader.

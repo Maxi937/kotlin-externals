@@ -1,7 +1,7 @@
 package zowe.imperative.cmd.doc.profiles.definition
 
 import zowe.imperative.cmd.doc.IPartialCommandDefinition
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 @JsPlainObject
 external interface ICommandProfileAuthConfig {

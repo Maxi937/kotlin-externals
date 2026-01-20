@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Event triggered by extensions to signal to the editor that an edit has occurred on an [CustomDocument].

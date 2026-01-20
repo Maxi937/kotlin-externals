@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * "Pass On" allows you to indicate fields in the current command definition node to be passed-on

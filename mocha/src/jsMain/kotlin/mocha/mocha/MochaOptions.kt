@@ -1,7 +1,7 @@
 package mocha.mocha
 
 import kotlin.js.RegExp
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Options to pass to Mocha.

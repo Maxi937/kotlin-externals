@@ -1,5 +1,6 @@
 package zowe.imperative.settings
 
-import kotlin.ts.Union
+import js.`false`
+import ts.Union
 
 typealias SettingValue = Union<`false`, String>

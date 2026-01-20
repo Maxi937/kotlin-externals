@@ -2,8 +2,8 @@ package zowe.imperative.security.doc
 
 import zowe.imperative.security.DefaultCredentialManager
 import zowe.imperative.security.abstract.AbstractCredentialManager
-import kotlin.js.plain.JsPlainObject
-import kotlin.ts.Union
+import js.plain.JsPlainObject
+import ts.Union
 
 @JsPlainObject
 external interface ICredentialManagerInit {

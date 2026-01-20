@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * A notebook controller represents an entity that can execute notebook cells. This is often referred to as a kernel.

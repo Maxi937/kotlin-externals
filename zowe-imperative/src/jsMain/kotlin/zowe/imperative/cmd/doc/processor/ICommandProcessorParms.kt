@@ -6,7 +6,7 @@ import zowe.imperative.cmd.help.doc.IHelpGenerator
 import zowe.imperative.config.Config
 import zowe.imperative.imperative.doc.IDaemonContext
 import zowe.imperative.profiles.doc.api.IProfileManagerFactory
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Parameters to create an instance of the Command Processor. Contains the command definition (for

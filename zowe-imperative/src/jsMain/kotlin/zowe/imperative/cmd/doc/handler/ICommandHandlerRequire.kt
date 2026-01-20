@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc.handler
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This interface defines what the expected module.exports variable should be for any defined

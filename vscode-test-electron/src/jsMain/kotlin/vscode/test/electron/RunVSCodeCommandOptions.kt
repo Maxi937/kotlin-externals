@@ -3,7 +3,7 @@
 package vscode.test.electron
 
 import node.childProcess.SpawnOptions
-import kotlin.ts.Union
+import ts.Union
 
 external class RunVSCodeCommandOptions {
   /**

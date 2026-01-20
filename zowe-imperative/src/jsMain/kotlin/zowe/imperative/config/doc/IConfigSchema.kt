@@ -3,7 +3,7 @@
 package zowe.imperative.config.doc
 
 import js.objects.Record
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 @JsPlainObject
 external interface IConfigSchema {

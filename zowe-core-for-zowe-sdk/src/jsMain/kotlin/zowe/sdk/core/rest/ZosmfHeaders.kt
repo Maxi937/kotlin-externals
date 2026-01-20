@@ -2,6 +2,7 @@
 
 package zowe.sdk.core.rest
 
+import js.JsString
 import zowe.sdk.core.rest.doc.IHeaderContent
 
 /**

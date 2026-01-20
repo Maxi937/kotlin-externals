@@ -1,7 +1,7 @@
 package zowe.imperative.cmd.doc.option
 
 import js.array.JsTuple2
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Positional option definition - used on a command definition to define positional operands.

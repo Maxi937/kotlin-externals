@@ -2,6 +2,7 @@
 
 package zowe.imperative.profiles.validation.api
 
+import js.JsString
 import zowe.imperative.cmd.doc.option.ICommandOptionDefinition
 import zowe.imperative.operations.doc.IPromiseWithProgress
 import zowe.imperative.profiles.doc.definition.IProfile

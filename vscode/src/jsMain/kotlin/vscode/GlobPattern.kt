@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * A file glob pattern to match file paths against. This can either be a glob pattern string

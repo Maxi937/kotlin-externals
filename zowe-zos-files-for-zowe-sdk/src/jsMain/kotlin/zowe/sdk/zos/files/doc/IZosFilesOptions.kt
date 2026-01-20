@@ -1,6 +1,6 @@
 package zowe.sdk.zos.files.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This interface defines the global options that apply to all zosfiles APIs

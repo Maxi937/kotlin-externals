@@ -6,7 +6,7 @@ import vscode.MarkdownString
 import vscode.TreeItemLabel
 import zowe.imperative.profiles.doc.response.IProfileLoaded
 import zowe.imperative.rest.session.Session
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * The base interface for Zowe tree nodes that are implemented by vscode.TreeItem.

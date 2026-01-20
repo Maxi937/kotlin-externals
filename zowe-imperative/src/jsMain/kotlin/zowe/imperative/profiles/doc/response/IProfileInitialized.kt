@@ -1,6 +1,6 @@
 package zowe.imperative.profiles.doc.response
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Response to the Basic profile manager's initialize API - normally provided as an array to the

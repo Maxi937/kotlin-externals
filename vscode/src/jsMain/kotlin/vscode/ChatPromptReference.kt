@@ -1,7 +1,7 @@
 package vscode
 
 import js.array.JsTuple2
-import kotlin.ts.Union4
+import ts.Union4
 
 /**
  * A reference to a value that the user added to their chat request.

@@ -1,6 +1,6 @@
 package zowe.imperative.profiles.doc.definition
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Definition for a dependency on another profile. For example you can have a "fruit-ordering"

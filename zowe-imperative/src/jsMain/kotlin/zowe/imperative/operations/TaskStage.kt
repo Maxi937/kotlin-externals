@@ -1,5 +1,7 @@
 package zowe.imperative.operations
 
+import js.JsInt
+
 /**
  * Describes the current stage/status of a task in your CLI Used in operation infrastructure and for progress bars
  */

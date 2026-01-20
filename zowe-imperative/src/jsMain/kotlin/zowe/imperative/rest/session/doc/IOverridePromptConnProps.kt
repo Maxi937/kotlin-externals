@@ -1,6 +1,6 @@
 package zowe.imperative.rest.session.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Interface for overriding the prompting behavior of ConnectionPropsForSessCfg.addPropsOrPrompt()

@@ -2,7 +2,7 @@
 
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Contains coverage information for a single statement or line.

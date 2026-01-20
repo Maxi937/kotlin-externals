@@ -2,7 +2,7 @@ package zowe.imperative.cmd.doc.response.response
 
 import node.buffer.Buffer
 import zowe.imperative.error.doc.IImperativeError
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Command response object built by the command processor (and command handler). The response object

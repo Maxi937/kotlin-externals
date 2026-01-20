@@ -2,6 +2,7 @@
 
 package zowe.cli
 
+import js.JsString
 import zowe.imperative.cmd.doc.ICommandExampleDefinition
 import zowe.imperative.cmd.doc.option.ICommandOptionDefinition
 

@@ -1,7 +1,7 @@
 package vscode
 
 import js.array.ReadonlyArray
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Content settings for a webview.

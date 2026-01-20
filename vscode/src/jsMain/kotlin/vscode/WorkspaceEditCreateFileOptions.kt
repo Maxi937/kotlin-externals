@@ -1,7 +1,7 @@
 package vscode
 
 import js.typedarrays.Uint8Array
-import kotlin.ts.Union
+import ts.Union
 
 external interface WorkspaceEditCreateFileOptions {
   /**

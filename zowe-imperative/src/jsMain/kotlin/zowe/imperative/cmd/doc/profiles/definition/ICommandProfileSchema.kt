@@ -2,7 +2,7 @@ package zowe.imperative.cmd.doc.profiles.definition
 
 import js.objects.Record
 import zowe.imperative.profiles.doc.definition.IProfileSchema
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Externally exposed version of the profile schema with command options for auto-generated commands

@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * A chat request handler is a callback that will be invoked when a request is made to a chat participant.

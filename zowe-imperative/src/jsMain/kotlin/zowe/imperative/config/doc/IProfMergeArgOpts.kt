@@ -1,6 +1,6 @@
 package zowe.imperative.config.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Options that will affect the behavior of the ProfileInfo class.

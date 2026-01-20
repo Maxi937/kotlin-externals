@@ -1,4 +1,4 @@
-package kotlin.ts
+package ts
 
 /**
  * Marks a property that should not be modified, even if it is `var`.

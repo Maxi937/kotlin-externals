@@ -1,6 +1,6 @@
 package zowe.sdk.zos.files.methods.upload.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This interface defines the map option that can be sent into the upload uss directory function

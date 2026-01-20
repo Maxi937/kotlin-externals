@@ -10,7 +10,7 @@ import zowe.sdk.zos.files.doc.IDataSet
 import zowe.sdk.zos.files.doc.IOptions
 import zowe.sdk.zos.files.doc.IZosFilesResponse
 import zowe.sdk.zos.files.methods.hDelete.doc.IDeleteOptions
-import kotlin.ts.Partial
+import ts.Partial
 
 /**
  * Common IO utilities

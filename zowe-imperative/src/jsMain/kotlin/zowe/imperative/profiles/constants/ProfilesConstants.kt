@@ -2,6 +2,8 @@
 
 package zowe.imperative.profiles.constants
 
+import js.JsString
+
 /**
  * Constants used within the auto-generated profiles group
  */

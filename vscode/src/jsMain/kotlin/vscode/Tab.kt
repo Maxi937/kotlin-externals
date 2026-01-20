@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union8
+import ts.Union8
 
 /**
  * Represents a tab within a group of tabs ([TabGroup]).

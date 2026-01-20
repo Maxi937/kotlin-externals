@@ -2,7 +2,7 @@ package zowe.sdk.zos.files.methods.copy.doc
 
 import zowe.sdk.zos.files.doc.IDataSet
 import zowe.sdk.zos.files.doc.IZosFilesOptions
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This interface defines the options that can be sent into the copy data set function.

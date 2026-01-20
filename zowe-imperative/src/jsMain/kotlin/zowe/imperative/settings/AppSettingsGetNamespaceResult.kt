@@ -1,6 +1,7 @@
 package zowe.imperative.settings
 
-import kotlin.ts.Union
+import js.`false`
+import ts.Union
 
 external interface AppSettingsGetNamespaceResult {
   var CredentialManager: Union<String, `false`>

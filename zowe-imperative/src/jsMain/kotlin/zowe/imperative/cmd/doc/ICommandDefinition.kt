@@ -4,7 +4,7 @@ import zowe.imperative.cmd.doc.handler.IChainedHandlerEntry
 import zowe.imperative.cmd.doc.option.ICommandOptionDefinition
 import zowe.imperative.cmd.doc.option.ICommandPositionalDefinition
 import zowe.imperative.cmd.doc.profiles.definition.ICommandProfile
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Interface describing the syntax and behavior definition of a command or group of commands

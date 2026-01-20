@@ -2,8 +2,8 @@
 
 package vscode
 
-import kotlin.ts.Union
-import kotlin.ts.Union3
+import ts.Union
+import ts.Union3
 
 /**
  * Represents a part of a chat response that is a reference, rendered separately from the content.

@@ -1,7 +1,7 @@
 package zowe.imperative.config.doc
 
 import js.objects.Record
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This type corresponds to the `extenders.json` file stored in the CLI home directory.

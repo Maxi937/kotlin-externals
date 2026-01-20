@@ -2,6 +2,8 @@
 
 package zowe.imperative.config
 
+import js.JsString
+
 /**
  * Constants related to team configuration
  */

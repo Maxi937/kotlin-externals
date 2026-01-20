@@ -1,6 +1,6 @@
 package zowe.imperative.profiles.doc.parms
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Parameters to the profile manager "delete" API.

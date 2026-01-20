@@ -1,7 +1,7 @@
 package zowe.imperative.profiles.doc.definition
 
 import zowe.imperative.profiles.doc.config.IProfileTypeConfiguration
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * The meta profile is saved in each of the profile "type" directories under the profile manager

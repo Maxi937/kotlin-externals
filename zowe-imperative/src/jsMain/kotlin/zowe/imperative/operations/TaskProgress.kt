@@ -2,6 +2,8 @@
 
 package zowe.imperative.operations
 
+import js.JsInt
+
 /**
  * Constants and utilities used in tracking status of a running task
  */

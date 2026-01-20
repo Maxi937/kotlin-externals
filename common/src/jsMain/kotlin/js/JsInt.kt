@@ -1,4 +1,4 @@
-package kotlin.js
+package js
 
 /**
  * Specifies the literal value of an integer, e.g. `10`

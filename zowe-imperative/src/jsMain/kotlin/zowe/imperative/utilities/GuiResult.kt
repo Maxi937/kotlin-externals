@@ -1,5 +1,7 @@
 package zowe.imperative.utilities
 
+import js.JsInt
+
 /**
  * This enum represents the possible results from isGuiAvailable.
  */

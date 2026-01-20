@@ -2,7 +2,7 @@ package zowe.imperative.cmd.doc.profiles.definition
 
 import zowe.imperative.cmd.doc.ICommandExampleDefinition
 import zowe.imperative.profiles.doc.config.IProfileTypeConfiguration
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Cmd packages additions to the profile manager type configuration document. Used by the

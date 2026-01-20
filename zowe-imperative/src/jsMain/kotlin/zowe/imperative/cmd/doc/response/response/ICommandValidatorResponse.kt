@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc.response.response
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Syntax validator response.

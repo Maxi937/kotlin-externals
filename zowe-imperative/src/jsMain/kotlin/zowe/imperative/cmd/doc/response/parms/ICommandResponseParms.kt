@@ -3,7 +3,7 @@ package zowe.imperative.cmd.doc.response.parms
 import zowe.imperative.cmd.doc.ICommandDefinition
 import zowe.imperative.cmd.doc.args.ICommandArguments
 import zowe.imperative.cmd.doc.response.api.processor.CommandResponseFormat
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Command response control parameters. Indicates how the command response should behave and allows

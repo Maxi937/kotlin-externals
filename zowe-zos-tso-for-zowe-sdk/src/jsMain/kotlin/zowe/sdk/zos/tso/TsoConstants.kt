@@ -2,6 +2,7 @@
 
 package zowe.sdk.zos.tso
 
+import js.JsString
 import zowe.imperative.messages.doc.IMessageDefinition
 
 /**

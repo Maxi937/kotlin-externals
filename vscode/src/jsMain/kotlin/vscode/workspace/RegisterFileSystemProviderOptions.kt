@@ -2,7 +2,7 @@ package vscode.workspace
 
 import vscode.MarkdownString
 import vscode.Uri
-import kotlin.ts.Union
+import ts.Union
 
 external interface RegisterFileSystemProviderOptions {
   /**

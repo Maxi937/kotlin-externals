@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc.option
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Interface describing what values are allowable for a particular option.

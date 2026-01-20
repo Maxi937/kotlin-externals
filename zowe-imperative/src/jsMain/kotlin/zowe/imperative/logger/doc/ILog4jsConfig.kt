@@ -1,7 +1,7 @@
 package zowe.imperative.logger.doc
 
 import js.objects.Record
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 @JsPlainObject
 external interface ILog4jsConfig {

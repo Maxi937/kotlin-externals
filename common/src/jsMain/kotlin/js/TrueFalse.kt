@@ -1,4 +1,4 @@
-package kotlin.js
+package js
 
 typealias `true` = Boolean
 typealias `false` = Boolean

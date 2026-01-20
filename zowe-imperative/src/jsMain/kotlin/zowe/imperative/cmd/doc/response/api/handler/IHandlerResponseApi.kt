@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc.response.api.handler
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * The interface to the object passed to command handlers to formulate responses, print messages,

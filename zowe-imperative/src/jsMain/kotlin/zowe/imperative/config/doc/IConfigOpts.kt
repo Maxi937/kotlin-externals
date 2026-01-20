@@ -2,7 +2,8 @@
 
 package zowe.imperative.config.doc
 
-import kotlin.ts.Union
+import js.`false`
+import ts.Union
 
 external interface IConfigOpts {
   /**

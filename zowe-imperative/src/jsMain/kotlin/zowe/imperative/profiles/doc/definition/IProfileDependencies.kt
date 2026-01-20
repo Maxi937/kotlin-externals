@@ -1,6 +1,6 @@
 package zowe.imperative.profiles.doc.definition
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 @JsPlainObject
 external interface IProfileDependencies {

@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * MarkedString can be used to render human-readable text. It is either a markdown string

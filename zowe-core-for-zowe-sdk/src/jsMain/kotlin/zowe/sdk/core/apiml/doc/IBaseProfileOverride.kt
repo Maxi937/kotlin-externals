@@ -1,6 +1,6 @@
 package zowe.sdk.core.apiml.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * As part of the auto-init output report, this structure

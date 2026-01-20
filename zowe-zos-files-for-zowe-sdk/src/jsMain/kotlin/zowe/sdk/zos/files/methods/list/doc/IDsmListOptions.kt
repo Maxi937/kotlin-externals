@@ -2,7 +2,7 @@ package zowe.sdk.zos.files.methods.list.doc
 
 import zowe.imperative.operations.doc.ITaskWithStatus
 import zowe.sdk.zos.files.doc.IZosFilesOptions
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This interface defines the options that can be sent into the list data sets matching function

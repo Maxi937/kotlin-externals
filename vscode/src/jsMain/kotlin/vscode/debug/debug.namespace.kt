@@ -5,7 +5,7 @@ package vscode.debug
 
 import js.array.ReadonlyArray
 import vscode.*
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * The currently active [DebugSession] or `undefined`. The active debug session is the one

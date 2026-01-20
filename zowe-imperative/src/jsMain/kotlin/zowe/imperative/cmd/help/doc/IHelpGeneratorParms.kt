@@ -1,7 +1,7 @@
 package zowe.imperative.cmd.help.doc
 
 import zowe.imperative.cmd.doc.ICommandDefinition
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * The input parameters to the help generator - the command definition and the tree.

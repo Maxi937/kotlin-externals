@@ -2,7 +2,7 @@
 
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Represents a part of a chat response that is an anchor, that is rendered as a link to a target.

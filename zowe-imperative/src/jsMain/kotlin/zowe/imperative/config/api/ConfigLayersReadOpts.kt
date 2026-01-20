@@ -1,6 +1,6 @@
 package zowe.imperative.config.api
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 @JsPlainObject
 external interface ConfigLayersReadOpts {

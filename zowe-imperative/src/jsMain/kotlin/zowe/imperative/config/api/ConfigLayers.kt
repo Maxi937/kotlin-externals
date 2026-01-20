@@ -4,7 +4,7 @@ package zowe.imperative.config.api
 
 import zowe.imperative.config.doc.IConfig
 import zowe.imperative.config.doc.IConfigLayer
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * API Class for manipulating config layers.

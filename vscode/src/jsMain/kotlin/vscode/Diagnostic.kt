@@ -2,7 +2,7 @@
 
 package vscode
 
-import kotlin.ts.Union3
+import ts.Union3
 
 /**
  * Represents a diagnostic, such as a compiler error or warning. Diagnostic objects

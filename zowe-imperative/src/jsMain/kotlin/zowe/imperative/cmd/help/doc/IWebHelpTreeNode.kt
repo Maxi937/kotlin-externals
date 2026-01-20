@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.help.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Recursive object containing data for a node of web help command tree

@@ -3,7 +3,7 @@
 package zowe.imperative.cmd.response
 
 import zowe.imperative.cmd.doc.response.api.handler.*
-import kotlin.ts.Readonly
+import ts.Readonly
 
 /**
  * Handler command response APIs. Passed to command handlers for console messages, data responses,

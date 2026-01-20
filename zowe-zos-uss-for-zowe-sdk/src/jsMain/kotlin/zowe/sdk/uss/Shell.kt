@@ -2,6 +2,7 @@
 
 package zowe.sdk.uss
 
+import js.JsString
 import js.promise.Promise
 
 external class Shell {

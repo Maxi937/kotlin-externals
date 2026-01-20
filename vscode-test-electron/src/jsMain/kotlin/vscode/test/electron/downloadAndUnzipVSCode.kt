@@ -3,7 +3,7 @@
 package vscode.test.electron
 
 import js.promise.Promise
-import kotlin.ts.Partial
+import ts.Partial
 
 /**
  * Download and unzip a copy of VS Code in `.vscode-test`. The paths are:

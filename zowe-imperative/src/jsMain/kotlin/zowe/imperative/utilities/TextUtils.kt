@@ -2,6 +2,7 @@
 
 package zowe.imperative.utilities
 
+import js.JsInt
 import js.errors.JsError
 import js.objects.Record
 import kotlin.js.RegExp

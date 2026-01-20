@@ -9,7 +9,7 @@ import zowe.sdk.zos.files.doc.IZosFilesResponse
 import zowe.sdk.zos.files.methods.create.doc.ICreateDataSetOptions
 import zowe.sdk.zos.files.methods.create.doc.ICreateVsamOptions
 import zowe.sdk.zos.files.methods.create.doc.ICreateZfsOptions
-import kotlin.ts.Partial
+import ts.Partial
 
 /**
  * Class to handle creation of data sets

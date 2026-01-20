@@ -2,6 +2,7 @@
 
 package zowe.imperative.logger
 
+import js.JsString
 import zowe.imperative.console.Console
 import zowe.imperative.error.ImperativeError
 import zowe.imperative.logger.doc.IConfigLogging

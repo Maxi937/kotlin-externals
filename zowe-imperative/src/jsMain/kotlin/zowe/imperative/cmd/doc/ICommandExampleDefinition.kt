@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Example command definition - used on command definitions to present examples for the user in the help.

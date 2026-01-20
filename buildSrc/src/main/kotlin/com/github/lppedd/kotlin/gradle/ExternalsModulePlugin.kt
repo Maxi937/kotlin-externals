@@ -16,7 +16,9 @@ import org.gradle.kotlin.dsl.*
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.KotlinVersion
 import org.jetbrains.kotlin.gradle.plugin.KotlinMultiplatformPluginWrapper
+import org.jetbrains.kotlin.gradle.targets.js.dsl.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.targets.js.dsl.KotlinJsSubTargetDsl
+import org.jetbrains.kotlin.gradle.targets.js.dsl.KotlinWasmJsTargetDsl
 import org.jetbrains.kotlin.gradle.targets.js.nodejs.NodeJsRootPlugin.Companion.kotlinNodeJsExtension
 import org.jetbrains.kotlin.gradle.targets.js.yarn.yarn
 import org.jetbrains.kotlin.gradle.tasks.Kotlin2JsCompile
@@ -26,7 +28,7 @@ import seskar.gradle.plugin.SeskarGradleSubplugin
  * @author Edoardo Luppi
  */
 class ExternalsModulePlugin : Plugin<Project> {
-  @OptIn(ExperimentalKotlinGradlePluginApi::class)
+  @OptIn(ExperimentalKotlinGradlePluginApi::class, ExperimentalWasmDsl::class)
   override fun apply(project: Project) {
     // Apply the required plugins
     project.apply<KotlinMultiplatformPluginWrapper>()
@@ -74,6 +76,12 @@ class ExternalsModulePlugin : Plugin<Project> {
       useCommonJs()
     }
 
+    kmp.wasmJs() {
+      nodejs()
+      browser()
+      useCommonJs()
+    }
+
     // Compile to ES classes for better debuggability.
     // This is the only way it works for prod/dev/test compilations.
     // See discussion in https://youtrack.jetbrains.com/issue/KT-56818
@@ -89,13 +97,19 @@ class ExternalsModulePlugin : Plugin<Project> {
 
     val jsMain = kmp.sourceSets.findByName("jsMain")
     jsMain?.dependencies {
-      implementation("io.github.turansky.seskar:seskar-core:3.6.0")
+      implementation("io.github.turansky.seskar:seskar-core:4.32.0")
       api(project(":common"))
     }
 
     val jsTest = kmp.sourceSets.findByName("jsTest")
     jsTest?.dependencies {
       implementation(kotlin("test"))
+    }
+
+    val wasmJsMain = kmp.sourceSets.findByName("wasmJsMain")
+    wasmJsMain?.dependencies {
+      implementation("io.github.turansky.seskar:seskar-core:4.32.0")
+      api(project(":common"))
     }
 
     // Register a task to check if the associated npm package is outdated

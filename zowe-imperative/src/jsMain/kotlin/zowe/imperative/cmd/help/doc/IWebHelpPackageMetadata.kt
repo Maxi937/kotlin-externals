@@ -1,6 +1,6 @@
 package zowe.imperative.cmd.help.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Object containing metadata about a CLI package or plugin

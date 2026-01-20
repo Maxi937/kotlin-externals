@@ -1,6 +1,6 @@
 package zowe.explorer.api.utils
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 @JsPlainObject
 external interface FileAttributes {

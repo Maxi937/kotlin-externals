@@ -1,7 +1,7 @@
 package zowe.imperative.profiles.doc.definition
 
 import js.objects.Record
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * The JSON Validation schema for your profile type. Use this to describe the expected structure and

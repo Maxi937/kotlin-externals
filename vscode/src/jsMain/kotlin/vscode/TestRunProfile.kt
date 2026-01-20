@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * A TestRunProfile describes one way to execute tests in a [TestController].

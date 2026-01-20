@@ -1,6 +1,6 @@
 package zowe.cli.daemon.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Specifies wwhether questions can be asked of the user, and if not,

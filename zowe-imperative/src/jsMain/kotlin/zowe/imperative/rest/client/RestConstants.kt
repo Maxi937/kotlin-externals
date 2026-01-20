@@ -2,6 +2,9 @@
 
 package zowe.imperative.rest.client
 
+import js.JsInt
+import js.JsString
+
 /**
  * Constants used for REST client, etc.
  */

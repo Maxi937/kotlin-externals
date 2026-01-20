@@ -1,7 +1,7 @@
 package zowe.imperative.operations.doc
 
 import zowe.imperative.operations.Operation
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 @JsPlainObject
 external interface IOperationResult<T> {

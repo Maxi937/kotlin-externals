@@ -1,6 +1,6 @@
 package zowe.imperative.profiles.doc.parms
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Input to the "validateProfile" internal API. Indicates the schema document to be used for the

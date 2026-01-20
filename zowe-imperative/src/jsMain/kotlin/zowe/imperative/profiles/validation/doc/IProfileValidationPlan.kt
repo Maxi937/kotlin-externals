@@ -1,6 +1,6 @@
 package zowe.imperative.profiles.validation.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * An overall plan for validating a profile, composed of multiple tasks

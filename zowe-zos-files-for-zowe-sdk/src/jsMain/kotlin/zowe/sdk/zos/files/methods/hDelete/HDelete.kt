@@ -8,7 +8,7 @@ import zowe.imperative.rest.session.AbstractSession
 import zowe.sdk.core.rest.ZosmfRestClient
 import zowe.sdk.zos.files.doc.IZosFilesResponse
 import zowe.sdk.zos.files.methods.hDelete.doc.IDeleteOptions
-import kotlin.ts.Partial
+import ts.Partial
 
 /**
  * This class holds helper functions that are used to delete data sets through the

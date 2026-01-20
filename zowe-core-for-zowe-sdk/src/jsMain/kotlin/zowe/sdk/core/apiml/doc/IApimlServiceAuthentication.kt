@@ -1,6 +1,6 @@
 package zowe.sdk.core.apiml.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 @JsPlainObject
 external interface IApimlServiceAuthentication {

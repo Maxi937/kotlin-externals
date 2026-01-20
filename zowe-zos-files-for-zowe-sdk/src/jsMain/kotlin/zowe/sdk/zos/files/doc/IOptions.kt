@@ -1,7 +1,7 @@
 package zowe.sdk.zos.files.doc
 
 import zowe.imperative.operations.doc.ITaskWithStatus
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This interface defines the options that can be sent to get a data set or USS file function

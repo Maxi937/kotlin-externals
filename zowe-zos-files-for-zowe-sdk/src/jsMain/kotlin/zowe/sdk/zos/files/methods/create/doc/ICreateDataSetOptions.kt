@@ -1,7 +1,7 @@
 package zowe.sdk.zos.files.methods.create.doc
 
 import zowe.sdk.zos.files.doc.IZosFilesOptions
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Interface for create dataset API

@@ -5,7 +5,7 @@ package zowe.explorer.api.vscode.ui
 import js.promise.Promise
 import vscode.ExtensionContext
 import vscode.WebviewPanel
-import kotlin.ts.Union
+import ts.Union
 
 external class WebView {
   /**

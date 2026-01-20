@@ -2,6 +2,7 @@
 
 package zowe.imperative.rest.client
 
+import js.JsString
 import js.array.JsTuple3
 import zowe.imperative.rest.client.doc.IHeaderContent
 

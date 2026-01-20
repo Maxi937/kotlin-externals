@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * Options to be used when getting an [AuthenticationSession] from an [AuthenticationProvider].

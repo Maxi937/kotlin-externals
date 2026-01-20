@@ -3,7 +3,7 @@ package zowe.imperative.rest.client.doc
 import node.buffer.Buffer
 import zowe.imperative.logger.Logger
 import zowe.imperative.rest.session.Session
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Interface to map client's REST call response

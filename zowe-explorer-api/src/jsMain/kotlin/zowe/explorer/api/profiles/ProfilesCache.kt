@@ -2,6 +2,8 @@
 
 package zowe.explorer.api.profiles
 
+import js.JsInt
+import js.JsString
 import js.objects.Record
 import js.promise.Promise
 import node.Module

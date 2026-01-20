@@ -2,6 +2,7 @@
 
 package zowe.sdk.zos.jobs
 
+import js.JsInt
 import js.promise.Promise
 import zowe.imperative.rest.session.AbstractSession
 import zowe.sdk.zos.jobs.doc.input.IMonitorJobWaitForParms

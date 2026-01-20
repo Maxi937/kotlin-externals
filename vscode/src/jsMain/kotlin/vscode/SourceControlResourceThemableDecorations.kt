@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union3
+import ts.Union3
 
 /**
  * The theme-aware decorations for a [SourceControlResourceState].

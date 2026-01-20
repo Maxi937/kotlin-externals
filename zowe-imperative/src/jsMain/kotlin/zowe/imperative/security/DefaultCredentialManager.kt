@@ -2,6 +2,7 @@
 
 package zowe.imperative.security
 
+import js.JsString
 import js.promise.Promise
 import zowe.imperative.error.ImperativeError
 import zowe.imperative.security.abstract.AbstractCredentialManager

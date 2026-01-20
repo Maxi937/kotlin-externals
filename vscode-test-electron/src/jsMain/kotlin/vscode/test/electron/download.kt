@@ -3,7 +3,7 @@
 package vscode.test.electron
 
 import js.promise.Promise
-import kotlin.ts.Partial
+import ts.Partial
 
 external val fetchStableVersions: (released: Boolean, timeout: Int) -> Promise<Array<String>>
 external val fetchInsiderVersions: (released: Boolean, timeout: Int) -> Promise<Array<String>>

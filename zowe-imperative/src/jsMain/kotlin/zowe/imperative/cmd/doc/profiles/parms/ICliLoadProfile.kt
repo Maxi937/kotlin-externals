@@ -1,7 +1,7 @@
 package zowe.imperative.cmd.doc.profiles.parms
 
 import zowe.imperative.profiles.doc.parms.ILoadProfile
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Profile Manager "loadProfile" input parameters. Indicates which profile to load (named or

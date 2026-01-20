@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union6
+import ts.Union6
 
 /**
  * Represents the different chat response types.

@@ -9,7 +9,7 @@ import zowe.imperative.profiles.doc.response.IProfileLoaded
 import zowe.sdk.zos.files.doc.IZosFilesResponse
 import zowe.sdk.zos.files.methods.download.doc.IDownloadOptions
 import zowe.sdk.zos.files.methods.upload.doc.IUploadOptions
-import kotlin.ts.Partial
+import ts.Partial
 
 /**
  * An implementation of the Zowe Explorer USS API interface for zOSMF.

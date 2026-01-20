@@ -1,4 +1,4 @@
-package kotlin.js
+package js
 
 /**
  * Specifies the literal value of a string, e.g. `"example"`

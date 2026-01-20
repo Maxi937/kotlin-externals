@@ -1,7 +1,7 @@
 package zowe.imperative.profiles.doc.definition
 
-import kotlin.js.plain.JsPlainObject
-import kotlin.ts.Union
+import js.plain.JsPlainObject
+import ts.Union
 
 /**
  * A single field in a profile schema which can be serialized to a profile file

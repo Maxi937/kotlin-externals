@@ -1,7 +1,7 @@
 package zowe.sdk.zos.files.methods.download.doc
 
 import node.stream.Writable
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This interface defines options for downloading a single data set or USS file

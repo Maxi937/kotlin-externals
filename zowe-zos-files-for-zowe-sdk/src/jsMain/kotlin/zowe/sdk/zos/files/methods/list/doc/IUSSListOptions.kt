@@ -1,8 +1,8 @@
 package zowe.sdk.zos.files.methods.list.doc
 
 import zowe.sdk.zos.files.doc.IZosFilesOptions
-import kotlin.js.plain.JsPlainObject
-import kotlin.ts.Union
+import js.plain.JsPlainObject
+import ts.Union
 
 /**
  * This interface defines the options that can be sent into the USS list files function

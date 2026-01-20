@@ -2,7 +2,7 @@
 package zowe.imperative.profiles.doc.parms
 
 import zowe.imperative.profiles.doc.config.IProfileTypeConfiguration
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Parameters passed on the "basic profile manager" "initialize()" API. The initialization API

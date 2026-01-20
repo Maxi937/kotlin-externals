@@ -2,6 +2,7 @@
 
 package zowe.imperative.io
 
+import js.JsString
 import js.promise.Promise
 import node.buffer.Buffer
 import node.stream.Readable

@@ -2,7 +2,7 @@ package zowe.sdk.zos.files.methods.download.doc
 
 import js.objects.Record
 import zowe.sdk.zos.files.utils.ZosFilesAttributes
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This interface defines options for downloading multiple data sets or USS files

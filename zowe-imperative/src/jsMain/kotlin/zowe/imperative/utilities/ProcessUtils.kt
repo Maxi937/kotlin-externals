@@ -6,7 +6,7 @@ import js.promise.Promise
 import node.buffer.Buffer
 import node.childProcess.SpawnSyncOptions
 import zowe.imperative.utilities.doc.ISystemInfo
-import kotlin.ts.Union
+import ts.Union
 
 /**
  * A collection of utilities related to the running process.

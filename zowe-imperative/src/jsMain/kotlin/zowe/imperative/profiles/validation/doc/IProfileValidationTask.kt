@@ -1,6 +1,6 @@
 package zowe.imperative.profiles.validation.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Criterion/task used for testing the validity of a profile You can use any number of these

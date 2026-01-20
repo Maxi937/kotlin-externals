@@ -1,7 +1,7 @@
 package zowe.imperative.config.doc
 
 import js.objects.Object
-import kotlin.ts.Union5
+import ts.Union5
 
 /**
  * The value for the argument

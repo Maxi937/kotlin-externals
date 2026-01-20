@@ -2,7 +2,7 @@ package zowe.imperative.rest.client.doc
 
 import node.http.OutgoingHttpHeaders
 import zowe.imperative.rest.client.types.HttpVerb
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 @JsPlainObject
 external interface IHTTPSOptions {

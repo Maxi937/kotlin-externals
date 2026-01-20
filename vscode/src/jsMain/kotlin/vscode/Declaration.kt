@@ -1,6 +1,6 @@
 package vscode
 
-import kotlin.ts.Union3
+import ts.Union3
 
 /**
  * The declaration of a symbol representation as one or many [Location]s

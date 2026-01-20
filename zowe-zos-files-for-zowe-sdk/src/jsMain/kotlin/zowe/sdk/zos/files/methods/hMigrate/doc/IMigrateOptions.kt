@@ -1,7 +1,7 @@
 package zowe.sdk.zos.files.methods.hMigrate.doc
 
 import zowe.sdk.zos.files.doc.IZosFilesOptions
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * This interface defines the options that can be sent into the migrate data set function.

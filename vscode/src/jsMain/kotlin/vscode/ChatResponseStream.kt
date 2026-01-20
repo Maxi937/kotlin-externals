@@ -1,7 +1,7 @@
 package vscode
 
-import kotlin.ts.Union
-import kotlin.ts.Union3
+import ts.Union
+import ts.Union3
 
 /**
  * The ChatResponseStream is how a participant is able to return content to the chat view.

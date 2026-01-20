@@ -1,7 +1,7 @@
 package zowe.imperative.rest.client.doc
 
 import zowe.imperative.error.doc.IImperativeError
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * REST client error interface. Extends IImperativeError to provide additional details specified to

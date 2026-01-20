@@ -1,6 +1,6 @@
 package zowe.imperative.profiles.doc.response
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * The success response to the profile "delete()" API.

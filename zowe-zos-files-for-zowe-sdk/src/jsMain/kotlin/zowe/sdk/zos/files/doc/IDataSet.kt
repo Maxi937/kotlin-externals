@@ -1,6 +1,6 @@
 package zowe.sdk.zos.files.doc
 
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Interface for data sets

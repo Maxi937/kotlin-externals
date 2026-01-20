@@ -2,7 +2,7 @@ package zowe.imperative.cmd.doc.parms
 
 import zowe.imperative.cmd.doc.args.ICommandArguments
 import zowe.imperative.cmd.doc.response.api.processor.CommandResponseFormat
-import kotlin.js.plain.JsPlainObject
+import js.plain.JsPlainObject
 
 /**
  * Parameters to the command processor invoke method.
